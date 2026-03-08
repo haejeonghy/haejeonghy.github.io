@@ -1,18 +1,11 @@
 ---
 layout  : wikiindex
-title   : wiki
-toc     : true
+title   : blog index
+toc     : false
 public  : true
 comment : false
-updated : 2022-12-07 23:01:03 +0900
+updated : 2026-03-08 16:00:00 +0900
 regenerate: true
----
-
-## [[how-to]]
-
-* [[mathjax-latex]]
-
-
 ---
 
 ## blog posts
@@ -29,4 +22,3 @@ regenerate: true
 {% endfor %}
     </ul>
 </div>
-

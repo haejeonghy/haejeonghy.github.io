@@ -42,7 +42,10 @@
     <meta name="msapplication-TileImage" content="/resource/icon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-{% if site.google_analytics.ua and site.google_analytics.encrypted_ua %}
+{% if site.google_analytics.ua
+    and site.google_analytics.encrypted_ua
+    and site.google_analytics.ua != 'SAMPLE-VALUE'
+    and site.google_analytics.encrypted_ua != 'THIS-IS-SAMPLE-VALUE' %}
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics.ua }}"></script>
     <script>
@@ -88,7 +91,7 @@
             });
     </script>
 {% endif %}
-{% if site.google_adsense.client and page.adsense == true %}
+{% if site.google_adsense.client and site.google_adsense.client != 'SAMPLE-VALUE' and page.adsense == true %}
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script>
       (adsbygoogle = window.adsbygoogle || []).push({
