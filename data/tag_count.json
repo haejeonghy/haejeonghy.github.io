@@ -4,6 +4,10 @@
   "size": 1
  },
  {
+  "name": "architecture",
+  "size": 1
+ },
+ {
   "name": "aws",
   "size": 5
  },
@@ -40,6 +44,10 @@
   "size": 1
  },
  {
+  "name": "dependency-injection",
+  "size": 1
+ },
+ {
   "name": "devops",
   "size": 2
  },
@@ -48,12 +56,16 @@
   "size": 1
  },
  {
+  "name": "fx",
+  "size": 1
+ },
+ {
   "name": "github-pages",
   "size": 1
  },
  {
   "name": "golang",
-  "size": 26
+  "size": 29
  },
  {
   "name": "goroutine",
@@ -62,6 +74,14 @@
  {
   "name": "grpc",
   "size": 2
+ },
+ {
+  "name": "hexagonal",
+  "size": 1
+ },
+ {
+  "name": "homebrew",
+  "size": 1
  },
  {
   "name": "html",
@@ -85,6 +105,14 @@
  },
  {
   "name": "kafka",
+  "size": 1
+ },
+ {
+  "name": "macos",
+  "size": 1
+ },
+ {
+  "name": "mockery",
   "size": 1
  },
  {
@@ -125,6 +153,14 @@
  },
  {
   "name": "start",
+  "size": 1
+ },
+ {
+  "name": "tap",
+  "size": 1
+ },
+ {
+  "name": "test",
   "size": 1
  },
  {

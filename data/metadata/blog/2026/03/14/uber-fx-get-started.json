@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "Uber Fx 시작하기와 핵심 개념 정리",
+ "summary": "Golang 서버에서 의존성 주입 문제를 해결하기 위해 Uber Fx를 조사하며 정리한 시작 가이드와 핵심 개념 노트입니다.",
+ "url": "/blog/2026/03/14/uber-fx-get-started",
+ "updated": "2026-03-14 14:35:00 +0900",
+ "children": []
+}

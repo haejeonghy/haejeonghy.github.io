@@ -24,5 +24,8 @@
  "/blog/2025/06/06/golang에서-http-client-의-개념",
  "/blog/2025/06/08/golang-제네릭-generic-정리",
  "/blog/2025/08/04/golang-주요-웹-프레임워크-정리",
- "/blog/2025/11/01/100-go-mistakes"
+ "/blog/2025/11/01/100-go-mistakes",
+ "/blog/2026/03/14/hexagonal-architecture-golang-cafe-order",
+ "/blog/2026/03/14/uber-fx-get-started",
+ "/blog/2026/03/14/why-vektra-mockery"
 ]
