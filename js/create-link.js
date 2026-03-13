@@ -7,13 +7,20 @@
 
     for (var i = 0; i < tags.length; i++) {
         var item = tags[i];
-        var tagList = item.innerHTML.trim();
+        // 이미 링크가 렌더링된 태그는 재가공하지 않는다.
+        if (item.querySelector('a')) {
+            continue;
+        }
+
+        // HTML 문자열이 아니라 순수 텍스트 기준으로 태그를 파싱한다.
+        var tagList = item.textContent.trim();
 
         if(/^\s*$/.test(tagList)) {
             continue;
         }
         tagList = tagList.split(/\s+/)
             .map(function(tag) {
+                tag = tag.replace(/^#/, '');
                 return `<a href="/tag/#${tag}">#${tag}</a>`;
             })
             .join(' ');
