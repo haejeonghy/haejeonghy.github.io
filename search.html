@@ -4,17 +4,95 @@ title: Search
 permalink: /search/
 public: true
 ---
- <div id="home-search">
-     <script>
-         (function() {
-             var cx = '009589569786427844174:n5gsvy4rj58';
-             var gcse = document.createElement('script');
-             gcse.type = 'text/javascript';
-             gcse.async = true;
-             gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-             var s = document.getElementsByTagName('script')[0];
-             s.parentNode.insertBefore(gcse, s);
-         })();
-     </script>
-     <gcse:search linkTarget="_parent" queryParameterName="searchString"></gcse:search>
- </div>
+<div id="home-search">
+    <h3>Search</h3>
+    <p id="search-meta"></p>
+    <ul id="search-results" class="post-list"></ul>
+</div>
+
+<script>
+;(async function() {
+    const params = new URLSearchParams(window.location.search);
+    const query = (params.get('searchString') || '').trim();
+    const normalizedQuery = query.toLowerCase();
+
+    const metaEl = document.getElementById('search-meta');
+    const listEl = document.getElementById('search-results');
+
+    function escapeHtml(text) {
+        return String(text)
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/\"/g, '&quot;')
+            .replace(/'/g, '&#039;');
+    }
+
+    function toMetadataPath(url) {
+        return `/data/metadata${url}.json`;
+    }
+
+    if (!query) {
+        metaEl.textContent = '검색어를 입력해 주세요.';
+        return;
+    }
+
+    metaEl.textContent = `"${query}" 검색 중...`;
+
+    let urls = [];
+    try {
+        const res = await fetch('/data/total-document-url-list.json');
+        urls = await res.json();
+    } catch (e) {
+        metaEl.textContent = '검색 인덱스를 불러오지 못했습니다.';
+        return;
+    }
+
+    const docs = [];
+    const batchSize = 30;
+
+    for (let i = 0; i < urls.length; i += batchSize) {
+        const batch = urls.slice(i, i + batchSize);
+        const settled = await Promise.allSettled(
+            batch.map(url =>
+                fetch(toMetadataPath(url))
+                    .then(r => (r.ok ? r.json() : null))
+                    .catch(() => null)
+            )
+        );
+
+        settled.forEach(result => {
+            if (result.status !== 'fulfilled' || !result.value) return;
+            docs.push(result.value);
+        });
+    }
+
+    const filtered = docs.filter(doc => {
+        const haystack = `${doc.title || ''} ${doc.summary || ''} ${doc.url || ''}`.toLowerCase();
+        return haystack.includes(normalizedQuery);
+    });
+
+    filtered.sort((a, b) => String(b.updated || '').localeCompare(String(a.updated || '')));
+
+    if (filtered.length === 0) {
+        metaEl.textContent = `"${query}" 검색 결과가 없습니다.`;
+        return;
+    }
+
+    metaEl.textContent = `"${query}" 검색 결과 ${filtered.length}건`;
+
+    listEl.innerHTML = filtered.map(doc => {
+        const summary = doc.summary ? `<div class="post-excerpt">- ${escapeHtml(doc.summary)}</div>` : '';
+        const updated = doc.updated ? `<div class="post-meta">${escapeHtml(String(doc.updated).slice(0, 10))}</div>` : '';
+        return `
+            <li>
+                <a class="post-link" href="${escapeHtml(doc.url || '/')}">
+                    <span>${escapeHtml(doc.title || '(제목 없음)')}</span>
+                    ${updated}
+                    ${summary}
+                </a>
+            </li>
+        `;
+    }).join('');
+})();
+</script>
