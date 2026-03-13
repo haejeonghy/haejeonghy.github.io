@@ -1,6 +1,6 @@
 {
  "type": "blog",
- "title": "org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':compileJava'.",
+ "title": "TODO_org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':compileJava'.",
  "summary": "'linux에서 프로젝트 올릴 때 안됨...'",
  "url": "/blog/2021/11/01/org-gradle-api-tasks-taskexecutionexception-execution-failed-for-task-compilejava",
  "updated": "2026-03-14 01:08:00 +0900",

@@ -1,6 +1,6 @@
 ---
 layout  : post
-title   : jdbcSessionDataSourceInitializer 이슈
+title   : TODO_jdbcSessionDataSourceInitializer 이슈
 summary : '2022-01-06 23:23:12.362 ERROR 14084 - [ main] o.s.boot.SpringApplication : Application run failed'
 date    : 2022-01-06 23:25:00 +0900
 updated : 2026-03-14 01:08:00 +0900
@@ -11,7 +11,7 @@ public  : true
 ---
 * TOC
 {:toc}
-# jdbcSessionDataSourceInitializer 이슈
+# TODO_jdbcSessionDataSourceInitializer 이슈
 Created: 2022년 1월 6일 오후 11:25
 보관소: No
 최종 편집 일시: 2026년 3월 14일 오전 1:08

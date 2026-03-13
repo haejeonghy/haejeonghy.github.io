@@ -1,6 +1,6 @@
 {
  "type": "blog",
- "title": "jdbcSessionDataSourceInitializer 이슈",
+ "title": "TODO_jdbcSessionDataSourceInitializer 이슈",
  "summary": "'2022-01-06 23:23:12.362 ERROR 14084 - [ main] o.s.boot.SpringApplication : Application run failed'",
  "url": "/blog/2022/01/06/jdbcsessiondatasourceinitializer-이슈",
  "updated": "2026-03-14 01:08:00 +0900",
