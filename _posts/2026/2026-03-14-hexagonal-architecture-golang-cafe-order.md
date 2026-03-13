@@ -2,8 +2,8 @@
 layout  : post
 title   : 헥사고날 아키텍처 핵심 개념과 Golang 카페 주문 시스템 예시
 summary : 헥사고날 아키텍처의 코어·포트·어댑터 개념을 정리하고 Golang 카페 주문 시스템 예시로 적용 방식을 설명합니다.
-date    : 2026-03-14 13:30:00 +0900
-updated : 2026-03-14 13:30:00 +0900
+date    : 2026-03-14 00:40:00 +0900
+updated : 2026-03-14 00:40:00 +0900
 tag     : architecture golang hexagonal
 toc     : true
 comment : false

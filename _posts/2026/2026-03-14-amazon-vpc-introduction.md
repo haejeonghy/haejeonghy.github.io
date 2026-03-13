@@ -2,8 +2,8 @@
 layout  : post
 title   : Amazon VPC란 무엇인가
 summary : Amazon VPC의 개념, 핵심 구성 요소, 그리고 VPC가 없을 때 발생하는 문제를 카페 비유와 함께 정리합니다.
-date    : 2026-03-14 11:00:00 +0900
-updated : 2026-03-14 11:00:00 +0900
+date    : 2026-03-14 00:30:00 +0900
+updated : 2026-03-14 00:30:00 +0900
 tag     : aws vpc network
 toc     : true
 comment : false

@@ -13,8 +13,10 @@ public: true
 {% for post in paginator.posts %}
     {% if post.public == true %}
         <li>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                <span>{{ post.title }}</span>
+            <div class="post-item">
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                    <span>{{ post.title }}</span>
+                </a>
                 <div style="float: right;">{{ post.date | date: "%Y.%m.%d" }}</div>
                 <div>- {{ post.summary }}</div>
                 <ul class="tag-list">
@@ -27,7 +29,7 @@ public: true
             {% endif %}
         {% endfor %}
                 </ul>
-            </a>
+            </div>
         </li>
     {% endif %}
 {% endfor %}

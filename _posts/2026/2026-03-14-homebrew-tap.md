@@ -2,8 +2,8 @@
 layout  : post
 title   : Homebrew의 brew tap은 왜 필요한가
 summary : solidity 설치 과정에서 사용한 brew tap 명령의 역할과 Homebrew repository, formula 구조를 정리합니다.
-date    : 2026-03-14 14:10:00 +0900
-updated : 2026-03-14 14:10:00 +0900
+date    : 2026-03-14 00:50:00 +0900
+updated : 2026-03-14 00:50:00 +0900
 tag     : homebrew tap macos
 toc     : true
 comment : false

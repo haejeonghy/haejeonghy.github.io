@@ -52,9 +52,14 @@ regenerate: true
                     </div>
                     <div class="post-excerpt">{{ doc.summary }}</div>
                     <ul class="tag-list">
+                    {% assign post_tags = doc.tag | default: '' | split: ' ' %}
+                    {% for tag in post_tags %}
+                        {% if tag != '' %}
                         <li class="post-tag">
-                            {{ doc. tag }}
+                            <a href="/tag/#{{tag}}">#{{tag}}</a>
                         </li>
+                        {% endif %}
+                    {% endfor %}
                     </ul>
                 </a>
             </div>

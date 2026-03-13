@@ -2,8 +2,8 @@
 layout  : post
 title   : Spring Boot Bootstrap이란 무엇인가
 summary : Spring Boot의 bootstrap 개념과 실행 흐름, bootstrap.yml 변화, 현재 확장 포인트를 정리합니다.
-date    : 2026-03-14 09:00:00 +0900
-updated : 2026-03-14 09:00:00 +0900
+date    : 2026-03-14 00:10:00 +0900
+updated : 2026-03-14 00:10:00 +0900
 tag     : spring boot bootstrap config
 toc     : true
 comment : false

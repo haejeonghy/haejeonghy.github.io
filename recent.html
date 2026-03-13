@@ -13,7 +13,14 @@ adsense: false
                     <div class="post-meta">{{ doc.updated | date: "%Y.%m.%d" }} - {{ doc.title }}</div>
                     <div class="post-excerpt">{{ doc.summary }}</div>
         {% if doc.tags %}
-                    <ul class="tag-list"><li class="post-tag">{{ doc. tag }}</li></ul>
+                    <ul class="tag-list">
+                        {% assign doc_tags = doc.tag | default: '' | split: ' ' %}
+                        {% for tag in doc_tags %}
+                            {% if tag != '' %}
+                            <li class="post-tag"><a href="/tag/#{{tag}}">#{{tag}}</a></li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
         {% endif %}
                 </a>
             </div>

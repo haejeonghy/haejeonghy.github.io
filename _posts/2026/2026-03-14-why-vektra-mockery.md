@@ -2,8 +2,8 @@
 layout  : post
 title   : 왜 gomock 대신 vektra/mockery를 고려하는가
 summary : mockery 문서를 기준으로 gomock 대비 장점과 기본 yaml 옵션을 간단히 정리한 노트입니다.
-date    : 2026-03-14 14:50:00 +0900
-updated : 2026-03-14 14:50:00 +0900
+date    : 2026-03-14 01:10:00 +0900
+updated : 2026-03-14 01:10:00 +0900
 tag     : golang test mockery
 toc     : true
 comment : false

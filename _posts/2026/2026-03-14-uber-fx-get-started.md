@@ -2,8 +2,8 @@
 layout  : post
 title   : Uber Fx 시작하기와 핵심 개념 정리
 summary : Golang 서버에서 의존성 주입 문제를 해결하기 위해 Uber Fx를 조사하며 정리한 시작 가이드와 핵심 개념 노트입니다.
-date    : 2026-03-14 14:35:00 +0900
-updated : 2026-03-14 14:35:00 +0900
+date    : 2026-03-14 01:00:00 +0900
+updated : 2026-03-14 01:00:00 +0900
 tag     : golang fx dependency-injection
 toc     : true
 comment : false

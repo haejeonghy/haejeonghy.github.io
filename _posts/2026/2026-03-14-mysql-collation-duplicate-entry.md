@@ -2,8 +2,8 @@
 layout  : post
 title   : MySQL Collation 때문에 발생한 Duplicate Entry 이슈
 summary : 값이 같아 보이는데도 unique key 중복이 발생한 원인과 collation 동작 차이를 정리합니다.
-date    : 2026-03-14 10:00:00 +0900
-updated : 2026-03-14 10:00:00 +0900
+date    : 2026-03-14 00:20:00 +0900
+updated : 2026-03-14 00:20:00 +0900
 tag     : mysql collation mydata
 toc     : true
 comment : false
