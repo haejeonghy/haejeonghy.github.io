@@ -5,6 +5,7 @@
 - 블로그 글 위치: `_posts/YYYY/YYYY-MM-DD-slug.md`
 - 프론트매터 기본 키: `layout: post`, `title`, `summary`, `date`, `updated`, `tag`, `public`
 - 태그는 `tags`가 아니라 `tag`(문자열) 사용.
+- 포스트를 작성한 후엔 노출될 수 있도록 index 등 업데이트
 
 ## 2) 데이터 동기화
 
