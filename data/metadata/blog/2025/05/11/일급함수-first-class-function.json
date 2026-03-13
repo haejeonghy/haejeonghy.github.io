@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "일급함수(First-Class Function)",
+ "summary": "'프로그래밍에서 일급 함수 (First-Class Function)는 다른 변수처럼 자유롭게 다룰 수 있는 함수를 의미합니다. 즉, 함수가 일급 객체 (First-Class Citizen)로 취급된다는 것입니다.'",
+ "url": "/blog/2025/05/11/일급함수-first-class-function",
+ "updated": "2026-03-14 01:08:00 +0900",
+ "children": []
+}

@@ -1,7 +1,11 @@
 [
  {
-  "name": "aws",
+  "name": "aes",
   "size": 1
+ },
+ {
+  "name": "aws",
+  "size": 5
  },
  {
   "name": "blog",
@@ -24,11 +28,63 @@
   "size": 1
  },
  {
+  "name": "csp",
+  "size": 1
+ },
+ {
+  "name": "database",
+  "size": 2
+ },
+ {
+  "name": "ddd",
+  "size": 1
+ },
+ {
+  "name": "devops",
+  "size": 2
+ },
+ {
+  "name": "documentation",
+  "size": 1
+ },
+ {
   "name": "github-pages",
   "size": 1
  },
  {
+  "name": "golang",
+  "size": 26
+ },
+ {
+  "name": "goroutine",
+  "size": 1
+ },
+ {
+  "name": "grpc",
+  "size": 2
+ },
+ {
+  "name": "html",
+  "size": 1
+ },
+ {
+  "name": "import",
+  "size": 49
+ },
+ {
+  "name": "javascript",
+  "size": 1
+ },
+ {
   "name": "jekyll",
+  "size": 1
+ },
+ {
+  "name": "k8s",
+  "size": 11
+ },
+ {
+  "name": "kafka",
   "size": 1
  },
  {
@@ -37,15 +93,35 @@
  },
  {
   "name": "mysql",
-  "size": 1
+  "size": 2
  },
  {
   "name": "network",
+  "size": 4
+ },
+ {
+  "name": "nonce",
+  "size": 1
+ },
+ {
+  "name": "notion",
+  "size": 49
+ },
+ {
+  "name": "queue",
+  "size": 1
+ },
+ {
+  "name": "redis",
   "size": 1
  },
  {
   "name": "spring",
-  "size": 1
+  "size": 3
+ },
+ {
+  "name": "sre",
+  "size": 2
  },
  {
   "name": "start",
@@ -53,6 +129,86 @@
  },
  {
   "name": "vpc",
+  "size": 1
+ },
+ {
+  "name": "개발",
+  "size": 2
+ },
+ {
+  "name": "개발기초",
+  "size": 3
+ },
+ {
+  "name": "기술",
+  "size": 1
+ },
+ {
+  "name": "동시성",
+  "size": 1
+ },
+ {
+  "name": "동시성모델",
+  "size": 1
+ },
+ {
+  "name": "동시성제어",
+  "size": 1
+ },
+ {
+  "name": "디자인패턴",
+  "size": 3
+ },
+ {
+  "name": "문서화",
+  "size": 1
+ },
+ {
+  "name": "비동기프로그래밍",
+  "size": 1
+ },
+ {
+  "name": "설계",
+  "size": 2
+ },
+ {
+  "name": "스프링",
+  "size": 1
+ },
+ {
+  "name": "아키텍처",
+  "size": 2
+ },
+ {
+  "name": "암호학",
+  "size": 1
+ },
+ {
+  "name": "예정",
+  "size": 11
+ },
+ {
+  "name": "의존성주입",
+  "size": 2
+ },
+ {
+  "name": "인프라",
+  "size": 1
+ },
+ {
+  "name": "칼럼",
+  "size": 1
+ },
+ {
+  "name": "컴퓨터기초",
+  "size": 2
+ },
+ {
+  "name": "프로그래밍",
+  "size": 4
+ },
+ {
+  "name": "흐름제어",
   "size": 1
  }
 ]

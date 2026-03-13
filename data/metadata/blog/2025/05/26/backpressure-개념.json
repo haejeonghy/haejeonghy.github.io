@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "Backpressure 개념",
+ "summary": "'Backpressure(역압)는 생산자(Producer)가 데이터를 너무 빠르게 보내고, 소비자(Consumer)가 이를 제때 처리하지 못할 경우, 생산자의 전송 속도를 > > > 자동으로 조절하거나 멈추게 하는 흐'",
+ "url": "/blog/2025/05/26/backpressure-개념",
+ "updated": "2026-03-14 01:08:00 +0900",
+ "children": []
+}

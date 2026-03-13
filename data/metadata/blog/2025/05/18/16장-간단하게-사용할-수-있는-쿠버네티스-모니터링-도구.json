@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "16장. 간단하게 사용할 수 있는 쿠버네티스 모니터링 도구",
+ "summary": "'kubectl top pod -A --sort-by=memory'",
+ "url": "/blog/2025/05/18/16장-간단하게-사용할-수-있는-쿠버네티스-모니터링-도구",
+ "updated": "2026-03-14 01:08:00 +0900",
+ "children": []
+}

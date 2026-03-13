@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "gRPC 에러 처리와 status.FromError",
+ "summary": "'Go의 error는 단순 문자열이 아니라 interface 타입이다.'",
+ "url": "/blog/2025/05/13/grpc-에러-처리와-status-fromerror",
+ "updated": "2026-03-14 01:08:00 +0900",
+ "children": []
+}

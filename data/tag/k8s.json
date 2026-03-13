@@ -1,0 +1,13 @@
+[
+ "/blog/2025/02/16/k8s-ingress",
+ "/blog/2025/02/16/kubernetes-노드-node",
+ "/blog/2025/02/16/kubernetes-리소스",
+ "/blog/2025/05/06/rbac",
+ "/blog/2025/05/18/16장-간단하게-사용할-수-있는-쿠버네티스-모니터링-도구",
+ "/blog/2025/05/19/16장-간단하게-사용할-수-있는-쿠버네티스-모니터링-도구",
+ "/blog/2025/05/26/sidecar-개념",
+ "/blog/2025/05/27/kubernetes-exit-code",
+ "/blog/2025/06/09/kubernetes-networkpolicy",
+ "/blog/2025/08/05/kubernetes-headless-service와-stateful의-관계",
+ "/blog/2025/11/28/kubernetes-service-라벨-충돌로-인한-502-이슈-정리"
+]

@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "golang 패키지 레벨 변수가 안티 패턴이고 상수를 추천하는 이유",
+ "summary": "'var Env = \"production\"'",
+ "url": "/blog/2025/05/23/golang-패키지-레벨-변수가-안티-패턴이고-상수를-추천하는-이유",
+ "updated": "2026-03-14 01:08:00 +0900",
+ "children": []
+}

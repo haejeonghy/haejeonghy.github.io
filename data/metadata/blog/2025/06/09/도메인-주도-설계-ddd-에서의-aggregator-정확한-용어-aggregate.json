@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "도메인 주도 설계(DDD)에서의 Aggregator (정확한 용어: Aggregate)",
+ "summary": "'Aggregate > > > 일관성 있는 상태를 유지하는 객체들의 집합 >'",
+ "url": "/blog/2025/06/09/도메인-주도-설계-ddd-에서의-aggregator-정확한-용어-aggregate",
+ "updated": "2026-03-14 01:08:00 +0900",
+ "children": []
+}

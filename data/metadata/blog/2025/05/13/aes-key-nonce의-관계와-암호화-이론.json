@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "AES, Key, Nonce의 관계와 암호화 이론",
+ "summary": "'➡ 이를 방지하기 위해 Nonce(매번 달라야 하는 임의값) 를 사용'",
+ "url": "/blog/2025/05/13/aes-key-nonce의-관계와-암호화-이론",
+ "updated": "2026-03-14 01:08:00 +0900",
+ "children": []
+}

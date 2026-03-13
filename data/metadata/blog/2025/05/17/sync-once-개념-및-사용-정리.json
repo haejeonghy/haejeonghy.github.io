@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "sync.Once 개념 및 사용 정리",
+ "summary": "'sync.Once는 Go의 동시성 제어 도구로, 특정 함수를 딱 한 번만 실행하도록 보장하는 구조체이다.'",
+ "url": "/blog/2025/05/17/sync-once-개념-및-사용-정리",
+ "updated": "2026-03-14 01:08:00 +0900",
+ "children": []
+}

@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "Kubernetes Service 라벨 충돌로 인한 502 이슈 정리",
+ "summary": "'Label → Pod을 부르는 명칭'",
+ "url": "/blog/2025/11/28/kubernetes-service-라벨-충돌로-인한-502-이슈-정리",
+ "updated": "2026-03-14 01:08:00 +0900",
+ "children": []
+}

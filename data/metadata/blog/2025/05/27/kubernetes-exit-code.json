@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "kubernetes exit code",
+ "summary": "'Kubernetes에서 컨테이너의 종료 상태를 나타내는 Exit Code는 애플리케이션의 실행 결과를 진단하고 문제를 해결하는 데 중요한 정보를 제공합니다. 이러한 코드들은 주로 Unix/Linux 시스템의 종료 코'",
+ "url": "/blog/2025/05/27/kubernetes-exit-code",
+ "updated": "2026-03-14 01:08:00 +0900",
+ "children": []
+}

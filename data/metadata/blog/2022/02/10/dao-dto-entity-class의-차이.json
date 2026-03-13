@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "DAO, DTO, Entity Class의 차이",
+ "summary": "'public interface QuestionRepository extends CrudRepository { }'",
+ "url": "/blog/2022/02/10/dao-dto-entity-class의-차이",
+ "updated": "2026-03-14 01:08:00 +0900",
+ "children": []
+}

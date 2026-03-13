@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "Go 모듈 (Module)과 go.mod 파일의 개념",
+ "summary": "'myapp/ ├── go.mod ├── go.sum └── main.go'",
+ "url": "/blog/2025/05/11/go-모듈-module-과-go-mod-파일의-개념",
+ "updated": "2026-03-14 01:08:00 +0900",
+ "children": []
+}

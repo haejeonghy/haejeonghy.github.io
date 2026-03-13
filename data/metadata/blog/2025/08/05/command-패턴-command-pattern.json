@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "Command 패턴(Command Pattern)",
+ "summary": "'type Command interface { Before() Execute() After() }'",
+ "url": "/blog/2025/08/05/command-패턴-command-pattern",
+ "updated": "2026-03-14 01:08:00 +0900",
+ "children": []
+}

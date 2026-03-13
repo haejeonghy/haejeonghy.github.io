@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "MySQL Bulk Update 성능 예측 방법",
+ "summary": "'선임이 “프로덕션 DB 테이블에 bulk update 하면 얼마나 빨라?”라고 질문함. >'",
+ "url": "/blog/2025/06/08/mysql-bulk-update-성능-예측-방법",
+ "updated": "2026-03-14 01:08:00 +0900",
+ "children": []
+}

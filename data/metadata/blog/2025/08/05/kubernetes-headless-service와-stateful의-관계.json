@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "Kubernetes Headless Service와 Stateful의 관계",
+ "summary": "'Kubernetes Headless Service와 Stateful의 관계의 핵심 개념과 실무 포인트를 정리합니다.'",
+ "url": "/blog/2025/08/05/kubernetes-headless-service와-stateful의-관계",
+ "updated": "2026-03-14 01:08:00 +0900",
+ "children": []
+}

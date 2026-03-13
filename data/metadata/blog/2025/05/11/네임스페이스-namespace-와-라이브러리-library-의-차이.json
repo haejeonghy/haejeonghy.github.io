@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "네임스페이스 (Namespace)와 라이브러리 (Library)의 차이",
+ "summary": "'// utils/math.go package utils'",
+ "url": "/blog/2025/05/11/네임스페이스-namespace-와-라이브러리-library-의-차이",
+ "updated": "2026-03-14 01:08:00 +0900",
+ "children": []
+}

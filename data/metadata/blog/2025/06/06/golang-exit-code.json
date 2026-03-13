@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "golang exit code",
+ "summary": "'Go 프로그램이 종료될 때 > > > 외부 프로세스에 실행 결과 상태를 전달하는 숫자 값 >'",
+ "url": "/blog/2025/06/06/golang-exit-code",
+ "updated": "2026-03-14 01:08:00 +0900",
+ "children": []
+}

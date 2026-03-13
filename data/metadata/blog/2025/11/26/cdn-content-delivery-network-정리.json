@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "CDN(Content Delivery Network) 정리",
+ "summary": "'TTL 관리, Cache-Control 정책, 캐시 무효화 전략이 중요'",
+ "url": "/blog/2025/11/26/cdn-content-delivery-network-정리",
+ "updated": "2026-03-14 01:08:00 +0900",
+ "children": []
+}

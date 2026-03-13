@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "Golang 제네릭(Generic) 정리",
+ "summary": "'func PrintIntSlice(s []int) { ... } func PrintStringSlice(s []string) { ... }'",
+ "url": "/blog/2025/06/08/golang-제네릭-generic-정리",
+ "updated": "2026-03-14 01:08:00 +0900",
+ "children": []
+}

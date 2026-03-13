@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "Go go.mod 파일의 // indirect",
+ "summary": "'go.mod 파일에서 require 항목 옆에 붙는 // indirect는'",
+ "url": "/blog/2025/05/17/go-go-mod-파일의-indirect",
+ "updated": "2026-03-14 01:08:00 +0900",
+ "children": []
+}

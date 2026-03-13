@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "Kubernetes NetworkPolicy",
+ "summary": "'Kubernetes 클러스터 내에서 > > > Pod 간 네트워크 통신을 제어 >'",
+ "url": "/blog/2025/06/09/kubernetes-networkpolicy",
+ "updated": "2026-03-14 01:08:00 +0900",
+ "children": []
+}

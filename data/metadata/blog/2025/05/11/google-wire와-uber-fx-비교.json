@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "Google Wire와 Uber Fx 비교",
+ "summary": "'Google Wire는 컴파일 타임 의존성 주입 (Compile-Time Dependency Injection) 도구로, 간단하고 타입 안전한 의존성 관리를 목적으로 합니다. 이는 런타임 주입이 아닌 컴파일 시점에 '",
+ "url": "/blog/2025/05/11/google-wire와-uber-fx-비교",
+ "updated": "2026-03-14 01:08:00 +0900",
+ "children": []
+}

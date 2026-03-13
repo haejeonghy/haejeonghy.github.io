@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "CSP (Communicating Sequential Processes)와 동시성 모델 비교 정리",
+ "summary": "'CSP(Communicating Sequential Processes)는 > > > 1978년 C.A.R. Hoare가 제안한 동시성 프로그래밍 모델로, > > 프로세스들이 공유 메모리 없이 채널을 통해 메시지를 주'",
+ "url": "/blog/2025/05/17/csp-communicating-sequential-processes-와-동시성-모델-비교-정리",
+ "updated": "2026-03-14 01:08:00 +0900",
+ "children": []
+}

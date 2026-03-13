@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "hashmap",
+ "summary": "'func main() { // 맵 생성 ages := make(map[string]int)'",
+ "url": "/blog/2025/05/07/hashmap",
+ "updated": "2026-03-14 01:08:00 +0900",
+ "children": []
+}

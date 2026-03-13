@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "sync.Mutex 개념 및 채널 대비 사용 권장 상황",
+ "summary": "'sync.Mutex는 Go에서 제공하는 뮤텍스(Mutual Exclusion, 상호 배제) 락 객체로,'",
+ "url": "/blog/2025/05/17/sync-mutex-개념-및-채널-대비-사용-권장-상황",
+ "updated": "2026-03-14 01:08:00 +0900",
+ "children": []
+}

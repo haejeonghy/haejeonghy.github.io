@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "Go에서 import cycle이 금지되는 이유",
+ "summary": "'A 패키지가 B를 import하고, B가 다시 A를 import하는 순환 참조 관계를 뜻함. >'",
+ "url": "/blog/2025/05/17/go에서-import-cycle이-금지되는-이유",
+ "updated": "2026-03-14 01:08:00 +0900",
+ "children": []
+}

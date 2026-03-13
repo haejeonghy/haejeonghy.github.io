@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "Golang에서 http.Client 의 개념",
+ "summary": "'Go에서 “client”라는 용어는 일반적으로 무언가에 요청(Request)을 보내는 역할을 하는 객체 또는 구조체를 의미합니다. 특히 http.Client는 HTTP 프로토콜을 사용하여 외부 서버에 요청을 보내고 '",
+ "url": "/blog/2025/06/06/golang에서-http-client-의-개념",
+ "updated": "2026-03-14 01:08:00 +0900",
+ "children": []
+}

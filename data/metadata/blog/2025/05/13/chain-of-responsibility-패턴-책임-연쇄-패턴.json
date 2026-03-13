@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "Chain of Responsibility 패턴 (책임 연쇄 패턴",
+ "summary": "'요청을 처리할 수 있는 객체들을 > > > 연결된 체인 형태 >'",
+ "url": "/blog/2025/05/13/chain-of-responsibility-패턴-책임-연쇄-패턴",
+ "updated": "2026-03-14 01:08:00 +0900",
+ "children": []
+}
