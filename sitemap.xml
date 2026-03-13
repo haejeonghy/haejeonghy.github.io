@@ -18,6 +18,7 @@
         <priority>0.5</priority>
     </url>
 {% for post in site.posts %}
+    {% if post.public == true %}
     <url>
         <loc>{{ site.url }}{{ post.url }}</loc>
     {% if post.updated == null %}
@@ -37,6 +38,7 @@
         <priority>{{ post.sitemap.priority }}</priority>
     {% endif %}
     </url>
+    {% endif %}
 {% endfor %}
 {% assign documents = site.wiki %}
 {% for doc in documents %}
@@ -64,4 +66,3 @@
     {% endif %}
 {% endfor %}
 </urlset>
-

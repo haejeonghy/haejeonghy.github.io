@@ -18,10 +18,13 @@ public: true
                 <div style="float: right;">{{ post.date | date: "%Y.%m.%d" }}</div>
                 <div>- {{ post.summary }}</div>
                 <ul class="tag-list">
-        {% for tag in post.tags %}
+        {% assign post_tags = post.tag | default: '' | split: ' ' %}
+        {% for tag in post_tags %}
+            {% if tag != '' %}
                     <li class="post-tag">
                         <a href="/tag/#{{tag}}" >#{{tag}}</a>
                     </li>
+            {% endif %}
         {% endfor %}
                 </ul>
             </a>
