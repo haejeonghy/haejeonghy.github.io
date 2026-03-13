@@ -16,10 +16,10 @@ fi
 
 echo "진행"
 
-TO_RESOURCE_DIR=`head $FILE_ADDR | ag -o "[A-F0-9]{2}/[A-F0-9-]{34}$"`
+TO_RESOURCE_DIR=`head "$FILE_ADDR" | rg -o "[A-F0-9]{2}/[A-F0-9-]{34}$"`
 
 # /resource/wiki/filename 리소스인 경우
-RESOURCE_NAME_LIST=`ag "\/resource\/wiki\/.*?" "$FILE_ADDR" | ag -o "/resource/wiki/[^ ]*\.(jpg|png|gif|JPG|mp4|svg|jpeg|pdf|PNG|xlsm)"`
+RESOURCE_NAME_LIST=`rg -P "\/resource\/wiki\/.*?" "$FILE_ADDR" | rg -o -P "/resource/wiki/[^ ]*\.(jpg|png|gif|JPG|mp4|svg|jpeg|pdf|PNG|xlsm)"`
 
 mkdir -p "./resource/$TO_RESOURCE_DIR"
 
@@ -35,7 +35,7 @@ for RESOURCE_NAME in $RESOURCE_NAME_LIST; do
 done
 
 # ./filename 리소스인 경우
-RESOURCE_NAME_LIST=`ag "!\[.*?\]\( *\.\/.*?\)" "$FILE_ADDR" | ag -o "\./[^ ]*"`
+RESOURCE_NAME_LIST=`rg -P "!\[.*?\]\( *\.\/.*?\)" "$FILE_ADDR" | rg -o -P "\./[^ ]*"`
 FILE_ADDR_DIR=`sed 's,\.md$,,' <<< $FILE_ADDR`
 
 for RESOURCE_NAME in $RESOURCE_NAME_LIST; do

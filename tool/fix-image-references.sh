@@ -24,7 +24,7 @@ for RESOURCE_FILE_ADDRESS in $RES_LIST; do
     echo "작업대상 파일: $RESOURCE_FILE_URL"
 
     # 리소스 파일을 사용하는 모든 마크다운 파일의 목록
-    REFERENCE_LIST=`ag -l "$RESOURCE_FILE_URL" _wiki | egrep "\.md"`
+    REFERENCE_LIST=`rg -l "$RESOURCE_FILE_URL" _wiki | egrep "\.md"`
 
     for MD_PATH in $REFERENCE_LIST; do
         VALID_DIR="./resource/"`echo "$MD_PATH" | sed 's/\.md$//' | sed -E "s/^_(wiki|blog)/\1/"`"/"
@@ -75,4 +75,3 @@ for RESOURCE_FILE_ADDRESS in $RES_LIST; do
 
     rm $RESOURCE_FILE_ADDRESS
 done
-
