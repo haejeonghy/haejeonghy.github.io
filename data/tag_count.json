@@ -37,7 +37,7 @@
  },
  {
   "name": "database",
-  "size": 2
+  "size": 3
  },
  {
   "name": "ddd",
@@ -213,7 +213,7 @@
  },
  {
   "name": "아키텍처",
-  "size": 2
+  "size": 3
  },
  {
   "name": "암호학",
