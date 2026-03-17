@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "Kubernetes 포트 개념 정리",
+ "summary": "Kubernetes에서 containerPort, targetPort, Service port, nodePort가 각각 어떤 역할을 하는지 네트워크 흐름과 함께 정리합니다.",
+ "url": "/blog/2026/03/17/kubernetes-port-개념-정리",
+ "updated": "2026-03-17 09:30:00 +0900",
+ "children": []
+}

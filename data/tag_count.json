@@ -101,10 +101,14 @@
  },
  {
   "name": "k8s",
-  "size": 11
+  "size": 12
  },
  {
   "name": "kafka",
+  "size": 1
+ },
+ {
+  "name": "kubernetes",
   "size": 1
  },
  {
@@ -125,7 +129,7 @@
  },
  {
   "name": "network",
-  "size": 4
+  "size": 5
  },
  {
   "name": "nonce",

@@ -9,5 +9,6 @@
  "/blog/2025/05/27/kubernetes-exit-code",
  "/blog/2025/06/09/kubernetes-networkpolicy",
  "/blog/2025/08/05/kubernetes-headless-service와-stateful의-관계",
- "/blog/2025/11/28/kubernetes-service-라벨-충돌로-인한-502-이슈-정리"
+ "/blog/2025/11/28/kubernetes-service-라벨-충돌로-인한-502-이슈-정리",
+ "/blog/2026/03/17/kubernetes-port-개념-정리"
 ]
