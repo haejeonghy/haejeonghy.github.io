@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "Hibernate 스키마 생성 중 Column not found가 나는 이유",
+ "summary": "JPA 테스트에서 Hibernate가 create index 실행 중 Column not found로 실패하는 원인과 확인 포인트를 정리합니다.",
+ "url": "/blog/2026/03/26/hibernate-schema-create-index-column-not-found",
+ "updated": "2026-03-26 16:10:00 +0900",
+ "children": []
+}
