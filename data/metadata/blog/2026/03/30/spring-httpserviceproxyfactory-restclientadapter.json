@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "Spring의 HttpServiceProxyFactory와 RestClientAdapter 쉽게 이해하기",
+ "summary": "Spring의 HttpServiceProxyFactory와 RestClientAdapter가 어떤 역할을 하고, 왜 인터페이스 기반 HTTP 클라이언트 구조가 유용한지 쉽게 정리합니다.",
+ "url": "/blog/2026/03/30/spring-httpserviceproxyfactory-restclientadapter",
+ "updated": "2026-03-30 19:39:56 +0900",
+ "children": []
+}
