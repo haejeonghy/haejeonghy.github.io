@@ -52,6 +52,10 @@
   "size": 1
  },
  {
+  "name": "desk",
+  "size": 1
+ },
+ {
   "name": "devops",
   "size": 2
  },
@@ -102,6 +106,10 @@
  {
   "name": "import",
   "size": 41
+ },
+ {
+  "name": "interior",
+  "size": 1
  },
  {
   "name": "javascript",
@@ -156,6 +164,10 @@
   "size": 41
  },
  {
+  "name": "productivity",
+  "size": 1
+ },
+ {
   "name": "queue",
   "size": 1
  },
@@ -189,6 +201,10 @@
  },
  {
   "name": "webflux",
+  "size": 1
+ },
+ {
+  "name": "workspace",
   "size": 1
  },
  {
