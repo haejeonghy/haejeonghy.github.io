@@ -25,7 +25,7 @@
  },
  {
   "name": "client",
-  "size": 1
+  "size": 2
  },
  {
   "name": "collation",
@@ -97,7 +97,7 @@
  },
  {
   "name": "http",
-  "size": 1
+  "size": 2
  },
  {
   "name": "import",
@@ -165,7 +165,7 @@
  },
  {
   "name": "spring",
-  "size": 4
+  "size": 5
  },
  {
   "name": "sre",
@@ -185,6 +185,10 @@
  },
  {
   "name": "vpc",
+  "size": 1
+ },
+ {
+  "name": "webflux",
   "size": 1
  },
  {

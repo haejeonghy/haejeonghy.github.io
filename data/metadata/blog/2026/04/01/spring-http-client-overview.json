@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "Spring HTTP Client 정리 - RestTemplate, RestClient, WebClient, Feign, HttpExchange, Flux",
+ "summary": "Spring에서 자주 언급되는 HTTP 클라이언트와 선언형 인터페이스 방식, Flux와 Mono의 의미를 한 번에 비교 정리합니다.",
+ "url": "/blog/2026/04/01/spring-http-client-overview",
+ "updated": "2026-04-01 09:10:00 +0900",
+ "children": []
+}
