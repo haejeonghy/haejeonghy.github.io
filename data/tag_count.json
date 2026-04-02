@@ -17,10 +17,18 @@
  },
  {
   "name": "boot",
-  "size": 1
+  "size": 2
  },
  {
   "name": "bootstrap",
+  "size": 1
+ },
+ {
+  "name": "cache",
+  "size": 1
+ },
+ {
+  "name": "caffeine",
   "size": 1
  },
  {
@@ -173,11 +181,11 @@
  },
  {
   "name": "redis",
-  "size": 1
+  "size": 2
  },
  {
   "name": "spring",
-  "size": 5
+  "size": 6
  },
  {
   "name": "sre",

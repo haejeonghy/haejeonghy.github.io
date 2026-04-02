@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "Spring Boot 캐싱 완전 정리",
+ "summary": "Spring Boot 캐싱의 활성화 방식, CacheManager 자동 구성, Redis와 Caffeine 선택 기준, 실무에서 반드시 봐야 할 캐시 전략 포인트를 정리합니다.",
+ "url": "/blog/2026/04/02/spring-boot-caching-overview",
+ "updated": "2026-04-02 14:48:15 +0900",
+ "children": []
+}
