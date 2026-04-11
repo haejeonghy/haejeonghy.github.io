@@ -66,9 +66,9 @@ end
 
 ![homebrew-ethereum repository에서 solidity formula 확인](https://velog.velcdn.com/images/haejeonghy/post/1ec2100d-d4ed-4a2f-ab45-e27bf3907daf/image.png)
 
-## 평가
+## 정리
 
-mac을 사용하기 시작하면서 Homebrew를 자연스럽게 사용하고 있었는데, Homebrew가 어떻게 동작하는지 생각해 본 적이 없었다. 이번에 궁금했던 점을 해결하다 보니 tap을 사용하여 repository를 추가하면 `homebrew/core`에서 패키지 전체를 관리하는 것보다 관리가 편할 것 같다는 생각이 들었다. 갈수록 기술은 편리하고 효율적으로 발전하고 있는 것 같아 재밌었다.
+`brew tap`은 Homebrew의 공식 저장소(`homebrew/core`)에 포함되지 않은 third-party formula를 사용하기 위해 외부 repository를 등록하는 명령이다. 패키지 관리의 범위를 공식 저장소 너머로 확장할 수 있어, 특정 생태계(ethereum 등)의 도구를 설치할 때 유용하다.
 
 ## 참고 문헌
 
