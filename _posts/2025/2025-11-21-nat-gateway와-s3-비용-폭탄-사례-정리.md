@@ -14,8 +14,6 @@ public  : true
 # NAT Gateway와 S3 비용 폭탄 사례 정리
 URL: https://news.hada.io/topic?id=24504
 
----
-
 1. 핵심 이해
 
 EC2 → S3 업로드 자체는 무료
@@ -29,8 +27,6 @@ EC2 → S3 업로드 자체는 무료
 처리한 데이터(GB) 단위 비용
 을 별도로 부과함
 
----
-
 1. 구조 비유 (VPC = 감옥)
 
 VPC: 보안이 유지되는 감옥 내부
@@ -42,8 +38,6 @@ NAT Gateway: 감옥 밖으로 나갈 수 있는 공식 검문소
 프라이빗 EC2가 외부로 나갈 때는 반드시 NAT Gateway를 지나게 됨
 
 이 검문소를 통해 대량의 트래픽이 지나가면 비용 폭증
-
----
 
 1. 문제의 원인 (사건 이해)
 
@@ -58,8 +52,6 @@ AWS는 이를
 
 결과적으로 NAT 처리 비용 폭탄 발생
 
----
-
 1. 해결 방법
 
 S3 Gateway VPC Endpoint 사용
@@ -69,8 +61,6 @@ S3 Gateway VPC Endpoint 사용
 비용: 무료
 
 NAT를 우회하므로 트래픽 비용 절감 효과 매우 큼
-
----
 
 1. 결론
 
@@ -86,5 +76,3 @@ S3 VPC Endpoint
 
 혹은 PrivateLink
 등을 사용해 NAT를 우회해야 함
-
----

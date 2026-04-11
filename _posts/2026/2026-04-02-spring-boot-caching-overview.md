@@ -9,7 +9,6 @@ toc: true
 comment: false
 public: true
 ---
-
 - TOC
   {:toc}
 
@@ -124,11 +123,11 @@ Cache
 
 각 구성요소의 역할은 다음과 같다.
 
-| 구성           | 역할              |
+| 구성 | 역할 |
 | -------------- | ----------------- |
 | `CacheManager` | 캐시 생성 및 관리 |
-| `Cache`        | 실제 데이터 저장  |
-| Annotation     | 캐싱 동작 트리거  |
+| `Cache` | 실제 데이터 저장 |
+| Annotation | 캐싱 동작 트리거 |
 
 여기서 자주 나오는 설명 중 하나가 "Spring은 캐시 추상화만 제공한다"는 말인데, 이 표현은 절반만 맞다.
 
@@ -152,11 +151,11 @@ Spring Boot는 캐시 관련 라이브러리와 설정 상태를 보고 `CacheMa
 
 핵심은 무조건 하나를 만드는 것이 아니라, 조건에 따라 다른 구현을 선택한다는 점이다.
 
-| 조건                    | 생성되는 `CacheManager` |
+| 조건 | 생성되는 `CacheManager` |
 | ----------------------- | ----------------------- |
-| Redis 관련 구성 존재    | `RedisCacheManager`     |
-| Caffeine 관련 구성 존재 | `CaffeineCacheManager`  |
-| 별도 구현 없음          | `SimpleCacheManager`    |
+| Redis 관련 구성 존재 | `RedisCacheManager` |
+| Caffeine 관련 구성 존재 | `CaffeineCacheManager` |
+| 별도 구현 없음 | `SimpleCacheManager` |
 
 즉, 이것은 단순 자동 구성이라기보다 조건 기반 자동 구성이라고 이해하는 편이 맞다.
 
@@ -299,11 +298,11 @@ Spring Cache를 `@Cacheable`만으로 이해하면 절반만 이해한 것이다
 
 정리하면 다음과 같다.
 
-| 애노테이션    | 동작                |
+| 애노테이션 | 동작 |
 | ------------- | ------------------- |
-| `@Cacheable`  | 조회 후 없으면 저장 |
-| `@CachePut`   | 무조건 실행 후 저장 |
-| `@CacheEvict` | 삭제                |
+| `@Cacheable` | 조회 후 없으면 저장 |
+| `@CachePut` | 무조건 실행 후 저장 |
+| `@CacheEvict` | 삭제 |
 
 즉, 캐싱은 조회 최적화만이 아니라 조회, 갱신, 무효화까지 포함하는 데이터 관리 전략이다.
 

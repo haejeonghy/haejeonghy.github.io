@@ -17,9 +17,7 @@ public  : true
 
 구성과 상속은 객체 지향 프로그래밍에서 **코드를 재사용**하고 **객체의 관계를 정의**하는 두 가지 주요 방법입니다. 각 방법은 서로 다른 철학과 구조를 가지고 있습니다.
 
----
-
-**📦 1. 구성 (Composition)**
+** 1. 구성 (Composition)**
 
 •	**객체가 다른 객체를 포함하는 방식**으로 코드를 재사용하는 방법입니다.
 
@@ -29,7 +27,7 @@ public  : true
 
 •	런타임에 **객체의 기능을 동적으로 변경**할 수 있는 이점이 있습니다.
 
-**📝 예시 (Go)**
+** 예시 (Go)**
 
 ```
 package main
@@ -80,9 +78,7 @@ func main() {
 
 •	객체 간의 의존 관계가 깊어질 수 있음
 
----
-
-**🗂️ 2. 상속 (Inheritance)**
+** 2. 상속 (Inheritance)**
 
 •	**클래스가 다른 클래스의 특성과 메서드를 물려받는 방식**으로 코드를 재사용하는 방법입니다.
 
@@ -90,7 +86,7 @@ func main() {
 
 •	코드가 **더 간단**해지고, 부모-자식 관계가 명확해집니다.
 
-**📝 예시 (Python)**
+** 예시 (Python)**
 
 ```
 class Coffee:
@@ -127,9 +123,7 @@ print(vanilla_coffee.get_description())  # Vanilla Coffee
 
 •	코드의 유연성 감소
 
----
-
-**🔄 3. 구성 vs 상속의 주요 차이점**
+** 3. 구성 vs 상속의 주요 차이점**
 
 | **특성** | **구성 (Composition)** | **상속 (Inheritance)** |
 | --- | --- | --- |
@@ -140,9 +134,7 @@ print(vanilla_coffee.get_description())  # Vanilla Coffee
 | **다형성** | 지원 (인터페이스 기반) | 지원 (클래스 기반) |
 | **확장성** | 뛰어남 | 제한적 (계층 깊이에 따른 복잡성) |
 
----
-
-**📊 언제 구성(Composition)을 쓰고, 언제 상속(Inheritance)을 써야 할까?**
+** 언제 구성(Composition)을 쓰고, 언제 상속(Inheritance)을 써야 할까?**
 
 •	**구성 (Composition)**
 
@@ -159,5 +151,3 @@ print(vanilla_coffee.get_description())  # Vanilla Coffee
 •	기본적인 속성이나 메서드를 모든 하위 클래스가 공유해야 할 때
 
 •	자식 클래스가 부모 클래스의 모든 기능을 필요로 할 때
-
----

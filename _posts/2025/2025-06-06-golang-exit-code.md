@@ -1,7 +1,7 @@
 ---
 layout  : post
 title   : golang exit code
-summary : 'Go 프로그램이 종료될 때 > > > 외부 프로세스에 실행 결과 상태를 전달하는 숫자 값 >'
+summary : 'Go 프로그램이 종료될 때 > > > 외부 프로세스에 실행 결과 상태를 전달하는 숫자 값'
 date    : 2025-06-06 18:28:00 +0900
 updated : 2026-03-14 01:08:00 +0900
 tag     : golang
@@ -13,11 +13,9 @@ public  : true
 {:toc}
 # golang exit code
 
----
+## Golang에서 Exit Code 사용 및 활용 사례 정리
 
-## **📌 Golang에서 Exit Code 사용 및 활용 사례 정리**
-
-### **1. Golang에서 Exit Code란?**
+### 1. Golang에서 Exit Code란?
 
 > Go 프로그램이 종료될 때
 > 
@@ -28,9 +26,7 @@ public  : true
 > 표준 패키지 os.Exit(code)를 통해 명시적으로 지정할 수 있으며, code == 0이면 정상 종료, 0이 아니면 실패를 의미합니다.
 > 
 
----
-
-### **2. 기본 사용 예시**
+### 2. 기본 사용 예시
 
 ```
 package main
@@ -51,9 +47,7 @@ func main() {
 }
 ```
 
----
-
-### **3. Exit Code를 사용하는 주요 상황**
+### 3. Exit Code를 사용하는 주요 상황
 
 | **사용 상황** | **설명** |
 | --- | --- |
@@ -62,9 +56,7 @@ func main() {
 | Kubernetes | 컨테이너가 어떤 이유로 종료되었는지 판단하는 기준 |
 | CronJob | 작업 성공/실패 결과를 시스템에 전달할 때 사용 |
 
----
-
-### **4. panic vs os.Exit(1) 비교**
+### 4. panic vs os.Exit(1) 비교
 
 | **항목** | panic | os.Exit(1) |
 | --- | --- | --- |
@@ -73,9 +65,7 @@ func main() {
 | 종료 코드 | 기본적으로 2 이상 | 원하는 숫자로 명시 가능 |
 | 외부 처리 | 다루기 어려움 (쿠버네티스, CI 등) | **명확하게 실패 신호 전달 가능** |
 
----
-
-### **5. 실제 적용 예: CronJob 파라미터 누락 시 종료**
+### 5. 실제 적용 예: CronJob 파라미터 누락 시 종료
 
 ```
 package main
@@ -104,12 +94,8 @@ func main() {
 > **깔끔하게 종료하고, 외부 시스템에 상태를 전달**
 > 
 
----
-
-## **✅ 요약**
+## 요약
 
 - Go에서는 os.Exit(code)를 사용하여 명시적인 종료 코드를 반환할 수 있음
 - panic은 개발 중 디버깅용, os.Exit은 **운영 환경에서의 명확한 실패 처리**에 사용
 - 특히 **CronJob, CLI, Kubernetes 환경에서는 exit code가 필수적인 신호 역할**
-
----

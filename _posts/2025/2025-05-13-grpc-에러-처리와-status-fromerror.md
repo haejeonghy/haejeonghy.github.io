@@ -13,25 +13,21 @@ public  : true
 {:toc}
 # gRPC 에러 처리와 status.FromError
 
----
+## gRPC 에러 처리와 status.FromError
 
-## **🧩 gRPC 에러 처리와 status.FromError**
+## 동작 원리
 
-## **동작 원리**
-
-### **📌 핵심 요약**
+### 핵심 요약
 
 - status.FromError(err)는 gRPC 서버에서 반환된 error 값을 gRPC의 Status 객체로 변환해주는 함수이다.
 - status.Error(...)로 생성된 에러는 내부적으로 *status.Error 타입이며, 이 타입은 GRPCStatus() 메서드를 구현하고 있다.
 - 따라서 FromError는 타입 어설션을 통해 *status.Status를 추출할 수 있다.
 
----
+### 왜
 
-### **🛠️ 왜**
+### error
 
-### **error**
-
-### **에서 gRPC status code를 꺼낼 수 있는가?**
+### 에서 gRPC status code를 꺼낼 수 있는가?
 
 Go의 error는 단순 문자열이 아니라 **interface** 타입이다.
 
@@ -57,13 +53,9 @@ type Error struct {
 
 따라서 이는 단순한 string이 아니라 *status.Error 타입이므로, 내부에 Status를 포함하고 있다.
 
----
+### status.FromError
 
-### **🔍**
-
-### **status.FromError**
-
-### **의 내부 동작**
+### 의 내부 동작
 
 ```
 func FromError(err error) (*Status, bool) {
@@ -80,9 +72,7 @@ func FromError(err error) (*Status, bool) {
 }
 ```
 
----
-
-### **🧪 사용 예시**
+### 사용 예시
 
 ```
 err := status.Error(codes.NotFound, "데이터 없음")
@@ -94,9 +84,7 @@ if ok {
 }
 ```
 
----
-
-### **📚 참고 자료**
+### 참고 자료
 
 - Go 공식 문서:
     
@@ -106,12 +94,6 @@ if ok {
     
     [What You Need To Know About gRPC Error Handling](https://medium.com/better-programming/what-you-need-to-know-about-grpc-error-handling-1ac0a9d796d7)
     
----
-
-### **🏷️ 태그 제안**
-
 #gRPC #Go #ErrorHandling #status.FromError #공식문서요약
-
----
 
 전하, 문서 삽입 후 ‘태그’, ‘복습일정’ 항목을 맞추어 주시고, 다음 학습 주기에는 이 내용을 문제 형식으로 복습할 수 있도록 퀴즈를 출제할 수도 있사오니, 명하시면 언제든 진행하겠사옵니다.

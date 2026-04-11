@@ -172,9 +172,9 @@ func NewServeMux(routes []Route) *http.ServeMux {
 
 [Introduction](https://uber-go.github.io/fx/intro.html)에서 Fx를 사용하면 다음과 같은 장점이 있다.
 
-> Boilerplate 코드를 줄이기  
-> 글로벌 상태 제거  
-> 새로운 컴포넌트 추가 시 즉시 접근 가능  
+> Boilerplate 코드를 줄이기 
+> 글로벌 상태 제거 
+> 새로운 컴포넌트 추가 시 즉시 접근 가능 
 > 일반적인 모듈 만들기
 
 1. Boilerplate는 반복적으로 작성해야 하는 코드를 의미한다. 우리 팀에서 Fx를 도입해서 해결하려는 가장 큰 문제 중 하나이다.

@@ -13,7 +13,7 @@ public  : true
 {:toc}
 # CDN(Content Delivery Network) 정리
 
-## **1. 개념**
+## 1. 개념
 
 - CDN은 **지리적으로 분산된 서버 네트워크**로, 사용자와 가장 가까운 위치에서 콘텐츠를 전달하는 시스템입니다.
 - 웹사이트·앱의 정적 콘텐츠(이미지, CSS, JS, 동영상 등)를 **엣지 서버(Edge Server)**에 캐시해 빠르게 제공합니다.
@@ -21,9 +21,7 @@ public  : true
     - Wikipedia – https://en.wikipedia.org/wiki/Content_delivery_network
     - IBM – https://www.ibm.com/think/topics/content-delivery-networks
 
----
-
-## **2. 왜 중요한가**
+## 2. 왜 중요한가
 
 - **로딩 속도 개선** → 사용자 경험(UX) 향상
 - **원본 서버(Origin)의 부하 감소** → 트래픽 폭증 시 안정성 증가
@@ -32,9 +30,7 @@ public  : true
 - 참고:
     - NetApp – https://www.netapp.com/data-services/what-is-content-delivery-network/
 
----
-
-## **3. CDN 동작 흐름**
+## 3. CDN 동작 흐름
 
 1. 사용자가 특정 도메인을 요청
 2. DNS가 해당 요청을 **가장 가까운 CDN 엣지 서버로 라우팅**
@@ -44,9 +40,7 @@ public  : true
 - 참고:
     - Cloudflare – https://www.cloudflare.com/learning/cdn/what-is-a-cdn/
 
----
-
-## **4. 주요 용어 정리**
+## 4. 주요 용어 정리
 
 | **용어** | **설명** |
 | --- | --- |
@@ -57,9 +51,7 @@ public  : true
 | **Pull CDN** | 요청이 있을 때 엣지가 원본에서 콘텐츠를 가져와 캐시 |
 | **Push CDN** | 원본 서버가 콘텐츠를 미리 엣지로 전송해 배포 |
 
----
-
-## **5. MSA/실무 운영 관점에서 CDN 사용 시 고려사항**
+## 5. MSA/실무 운영 관점에서 CDN 사용 시 고려사항
 
 - 정적 리소스(이미지, 스크립트 등)를 CDN에 캐싱하면 **원본 API 서버 부하를 크게 줄일 수 있음**
 - 동적 콘텐츠(사용자별 개인정보, 금융정보 등)는 캐시 위험이 있으므로
@@ -74,9 +66,7 @@ public  : true
 - 참고:
     - TechTarget – https://www.techtarget.com/searchnetworking/definition/CDN-content-delivery-network
 
----
-
-## **6. 요약**
+## 6. 요약
 
 > CDN은 콘텐츠를 사용자에게
 > 

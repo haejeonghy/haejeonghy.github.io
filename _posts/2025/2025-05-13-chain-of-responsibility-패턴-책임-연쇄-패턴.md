@@ -1,7 +1,7 @@
 ---
 layout  : post
 title   : Chain of Responsibility 패턴 (책임 연쇄 패턴
-summary : '요청을 처리할 수 있는 객체들을 > > > 연결된 체인 형태 >'
+summary : '요청을 처리할 수 있는 객체들을 > > > 연결된 체인 형태'
 date    : 2025-05-13 17:04:00 +0900
 updated : 2026-03-14 01:08:00 +0900
 tag     : 디자인패턴
@@ -13,9 +13,9 @@ public  : true
 {:toc}
 # Chain of Responsibility 패턴 (책임 연쇄 패턴
 
-## **🧩 Chain of Responsibility 패턴 (책임 연쇄 패턴)**
+## Chain of Responsibility 패턴 (책임 연쇄 패턴)
 
-### **📌 핵심 개념**
+### 핵심 개념
 
 > 요청을 처리할 수 있는 객체들을
 > 
@@ -31,9 +31,7 @@ public  : true
 > **다음 객체에게 위임**
 > 
 
----
-
-### **🛠️ 특징 및 목적**
+### 특징 및 목적
 
 | **항목** | **설명** |
 | --- | --- |
@@ -42,9 +40,7 @@ public  : true
 | **장점** | 결합도 낮음, 객체 추가/삭제 용이, 유연한 처리 흐름 |
 | **단점** | 디버깅 어려움, 처리 순서 의존도 존재 |
 
----
-
-### **⚙️ 구성 요소**
+### 구성 요소
 
 | **구성 요소** | **역할** |
 | --- | --- |
@@ -53,11 +49,9 @@ public  : true
 | SetNext(handler) | 체인 구성 (다음 책임자 연결) |
 | Handle(request) | 요청 처리 메서드 |
 
----
+### Golang 예시 코드
 
-### **🧪 Golang 예시 코드**
-
-### **인터페이스 및 처리자 정의**
+### 인터페이스 및 처리자 정의
 
 ```
 type Handler interface {
@@ -106,7 +100,7 @@ func (b *BusinessHandler) Handle(request string) {
 }
 ```
 
-### **체인 구성 및 실행**
+### 체인 구성 및 실행
 
 ```
 func main() {
@@ -127,18 +121,8 @@ func main() {
 }
 ```
 
----
-
-### **🧾 요약**
+### 요약
 
 - Handler는 인터페이스로 책임자 역할을 정의
 - 각 처리자(ConcreteHandler)는 처리 여부를 판단 후 다음으로 넘김
 - SetNext()를 통해 체인을 유연하게 구성 가능
-
----
-
-### **🏷️ 태그 제안**
-
-#Go #디자인패턴 #행동패턴 #ChainOfResponsibility #책임분산 #GoF패턴
-
----

@@ -15,9 +15,7 @@ public  : true
 
 Kubernetes에서 컨테이너의 종료 상태를 나타내는 **Exit Code**는 애플리케이션의 실행 결과를 진단하고 문제를 해결하는 데 중요한 정보를 제공합니다. 이러한 코드들은 주로 Unix/Linux 시스템의 종료 코드 규칙을 따르며, Kubernetes 자체에서 정의한 것은 아닙니다. 아래는 자주 발생하는 Exit Code와 그 의미를 정리한 것입니다.
 
----
-
-### **🧾 Kubernetes Exit Code 정리**
+### Kubernetes Exit Code 정리
 
 | **Exit Code** | **설명** |
 | --- | --- |
@@ -35,20 +33,18 @@ Kubernetes에서 컨테이너의 종료 상태를 나타내는 **Exit Code**는 
 | **143** | 우아한 종료 요청 (SIGTERM, 예: 스케일 다운, 롤링 업데이트 등) |
 | **255** | 알 수 없는 오류 또는 종료 코드 범위 초과 |
 
----
+### 주요 Exit Code 상세 설명
 
-### **🔍 주요 Exit Code 상세 설명**
+### Exit Code 0
 
-### **Exit Code 0**
-
-### **: 정상 종료**
+### : 정상 종료
 
 - **의미**: 프로세스가 성공적으로 작업을 마치고 종료됨을 나타냅니다.
 - **조치**: 특별한 조치 필요 없음.
 
-### **Exit Code 1**
+### Exit Code 1
 
-### **: 일반적인 애플리케이션 오류**
+### : 일반적인 애플리케이션 오류
 
 - **의미**: 애플리케이션 내부 오류로 인해 종료됨을 나타냅니다.
 - **원인 예시**:
@@ -57,9 +53,9 @@ Kubernetes에서 컨테이너의 종료 상태를 나타내는 **Exit Code**는 
     - 애플리케이션의 예외 처리 실패
 - **조치**: 컨테이너 로그를 확인하여 오류 원인을 파악하고 수정합니다.
 
-### **Exit Code 137**
+### Exit Code 137
 
-### **: 강제 종료 (SIGKILL)**
+### : 강제 종료 (SIGKILL)
 
 - **의미**: 컨테이너가 시스템에 의해 강제로 종료되었음을 나타냅니다.
 - **주요 원인**:
@@ -69,9 +65,9 @@ Kubernetes에서 컨테이너의 종료 상태를 나타내는 **Exit Code**는 
     - kubectl describe pod <pod-name> 명령어로 이벤트 로그를 확인하여 OOMKilled 여부를 확인합니다.
     - 메모리 리소스 제한을 조정하거나 애플리케이션의 메모리 사용을 최적화합니다.
 
-### **Exit Code 143**
+### Exit Code 143
 
-### **: 우아한 종료 요청 (SIGTERM)**
+### : 우아한 종료 요청 (SIGTERM)
 
 - **의미**: Kubernetes가 컨테이너에 종료 요청을 보냈음을 나타냅니다.
 - **주요 발생 시점**:
@@ -82,9 +78,7 @@ Kubernetes에서 컨테이너의 종료 상태를 나타내는 **Exit Code**는 
     - 애플리케이션이 SIGTERM 신호를 처리하여 종료 전에 필요한 정리 작업을 수행하도록 구현합니다.
     - terminationGracePeriodSeconds 값을 조정하여 애플리케이션이 충분한 시간 내에 종료 작업을 완료할 수 있도록 합니다.
 
----
-
-### **🛠️ Exit Code 확인 방법**
+### Exit Code 확인 방법
 
 - **Pod 상태 확인**:
 
@@ -110,12 +104,8 @@ Kubernetes에서 컨테이너의 종료 상태를 나타내는 **Exit Code**는 
   kubectl logs <pod-name> -c <container-name>
 ```
 
----
-
-### **📚 참고 자료**
+### 참고 자료
 
 - [Komodor: Exit Codes in Docker and Kubernetes: The Complete Guide](https://komodor.com/learn/exit-codes-in-containers-and-kubernetes-the-complete-guide/)
 - [Ananta Cloud: Understanding Kubernetes Exit Codes](https://www.anantacloud.com/post/kubernetes-exit-codes-decoded-common-problems-and-solutions)
 - [Lumigo: Kubernetes Exit Code 143: A Practical Guide](https://lumigo.io/kubernetes-troubleshooting/kubernetes-exit-code-143-a-practical-guide/)
-
----

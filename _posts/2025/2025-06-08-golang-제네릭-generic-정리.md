@@ -13,21 +13,17 @@ public  : true
 {:toc}
 # Golang 제네릭(Generic) 정리
 
----
+## Golang 제네릭(Generic) 정리
 
-## **📘 Golang 제네릭(Generic) 정리**
+### 개념 요약
 
-### **✅ 개념 요약**
-
-- *제네릭(Generic)**은 함수나 타입에서 **타입을 고정하지 않고**, 유연하게 다양한 타입을 처리할 수 있도록 하는 문법.
+- **제네릭(Generic)**은 함수나 타입에서 **타입을 고정하지 않고**, 유연하게 다양한 타입을 처리할 수 있도록 하는 문법.
 - **Go 1.18** 버전부터 정식 지원됨.
 - 목적: **코드 재사용성** 향상 + **타입 안정성 유지**
 
----
+### 왜 제네릭이 필요한가?
 
-### **📌 왜 제네릭이 필요한가?**
-
-### **❌ 제네릭이 없던 시절**
+### 제네릭이 없던 시절
 
 ```
 func PrintIntSlice(s []int) { ... }
@@ -36,7 +32,7 @@ func PrintStringSlice(s []string) { ... }
 
 - 타입마다 함수를 중복 작성해야 했음
 
-### **✅ 제네릭 도입 후**
+### 제네릭 도입 후
 
 ```
 func PrintSlice[T any](s []T) {
@@ -48,11 +44,9 @@ func PrintSlice[T any](s []T) {
 
 - 한 번 작성으로 어떤 타입이든 처리 가능
 
----
+### 기본 문법
 
-### **🧱 기본 문법**
-
-### **📍 함수에서 제네릭 사용**
+### 함수에서 제네릭 사용
 
 ```
 func Identity[T any](input T) T {
@@ -63,16 +57,14 @@ func Identity[T any](input T) T {
 - T: 타입 파라미터
 - any: 모든 타입 허용 (alias of interface{})
 
-### **📍 호출 예시**
+### 호출 예시
 
 ```
 val1 := Identity(42)             // int
 val2 := Identity[string]("hi")   // string
 ```
 
----
-
-### **📍 구조체에서 제네릭 사용**
+### 구조체에서 제네릭 사용
 
 ```
 type Pair[K, V any] struct {
@@ -83,9 +75,7 @@ type Pair[K, V any] struct {
 p := Pair[string, int]{Key: "age", Value: 30}
 ```
 
----
-
-### **📍 타입 제약 (constraint) 사용**
+### 타입 제약 (constraint) 사용
 
 ```
 type Number interface {
@@ -99,9 +89,7 @@ func Sum[T Number](a, b T) T {
 
 - ~int: int와 int 기반 사용자 정의 타입 포함
 
----
-
-### **🧪 실전 예제: 필터 함수**
+### 실전 예제: 필터 함수
 
 ```
 func Filter[T any](s []T, fn func(T) bool) []T {
@@ -120,9 +108,7 @@ even := Filter(nums, func(n int) bool { return n%2 == 0 })
 // 결과: [2, 4]
 ```
 
----
-
-### **⚠️ 사용 시 주의사항**
+### 사용 시 주의사항
 
 | **항목** | **설명** |
 | --- | --- |
@@ -130,9 +116,7 @@ even := Filter(nums, func(n int) bool { return n%2 == 0 })
 | 타입 추론 | 대부분의 경우 Go가 타입을 자동 추론해줌 |
 | 남용 금지 | 과한 사용은 코드 가독성과 유지보수성 저하시킬 수 있음 |
 
----
-
-### **🧠 요약**
+### 요약
 
 | **구분** | **내용** |
 | --- | --- |
@@ -140,5 +124,3 @@ even := Filter(nums, func(n int) bool { return n%2 == 0 })
 | 키워드 | T, any, constraint, ~ |
 | 장점 | 타입 안전 + 코드 재사용 |
 | 주요 활용 | 공통 로직 함수(filter/map/reduce), 자료구조(map/slice 등) |
-
----

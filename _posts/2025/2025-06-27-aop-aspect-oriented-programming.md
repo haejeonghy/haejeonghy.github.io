@@ -13,25 +13,21 @@ public  : true
 {:toc}
 # AOP (Aspect Oriented Programming)
 
----
-
 ## AOP란?
 
 AOP는 **Aspect-Oriented Programming (관점 지향 프로그래밍)**을 의미합니다.
 
 핵심 비즈니스 로직과 **공통 기능(부가 기능)**을 분리하여, **중복 없이** 코드에 적용할 수 있도록 해주는 프로그래밍 패러다임입니다.
 
-### 💡 요약
+### 요약
 
 - **공통 관심사 (cross-cutting concern)** 를 따로 분리
 - 핵심 로직 외의 반복 작업을 모듈화 (예: 트랜잭션, 로깅, 보안)
 - 코드 가독성과 유지보수성 향상
 
----
-
 ## 예시
 
-### ✨ AOP 미적용 시
+### AOP 미적용 시
 
 ```kotlin
 class MemberService {
@@ -46,9 +42,7 @@ class MemberService {
 
 → 모든 서비스 메서드에 **중복 코드** 발생
 
----
-
-### ✅ AOP 적용 시
+### AOP 적용 시
 
 ```kotlin
 @Aspect
@@ -78,8 +72,6 @@ class MemberService {
 
 ```
 
----
-
 ## AOP 핵심 용어 정리
 
 | 용어 | 설명 | 예시 |
@@ -90,23 +82,17 @@ class MemberService {
 | **Join point** | Advice가 적용 가능한 모든 지점 | `join()` 메서드 실행 시점 |
 | **Weaving** | Advice를 실제 코드에 연결하는 과정 | 런타임 시 프록시 적용 |
 
----
-
 ## 스프링 AOP의 동작 방식
 
 - **프록시 기반**으로 동작
 - 대상 객체를 감싸는 프록시가 메서드 실행 전후로 Advice를 실행함
 - 기본적으로 **런타임 기반 AOP** (AspectJ는 컴파일 타임도 가능)
 
----
-
 ## 요약 정리
 
 - 공통 로직(트랜잭션, 로깅 등)을 **모듈화**할 수 있음
 - 핵심 비즈니스 로직을 **깨끗하게 유지**할 수 있음
 - **스프링에서 널리 사용**됨
-
----
 
 ## 참고자료
 
