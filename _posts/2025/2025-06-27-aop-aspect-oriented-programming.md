@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # AOP (Aspect Oriented Programming)
-Created: 2025년 6월 27일 오후 6:59
-Tags: 스프링
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 ---
 

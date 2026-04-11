@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # Golang 제네릭(Generic) 정리
-Created: 2025년 6월 8일 오후 3:44
-Tags: golang
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 ---
 

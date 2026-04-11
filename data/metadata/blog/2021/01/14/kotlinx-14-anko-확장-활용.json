@@ -1,7 +1,7 @@
 {
  "type": "blog",
  "title": "Kotlinx - 14. Anko 확장 활용",
- "summary": "'Last Edited Time: 2022년 10월 26일 오후 10:34 Type: Kotlin, android Created By: HAE JEONG YU'",
+ "summary": "'Anko 라이브러리의 SQLite·Coroutines 모듈을 활용해 기존 방식보다 간결하게 안드로이드 개발하는 방법 정리'",
  "url": "/blog/2021/01/14/kotlinx-14-anko-확장-활용",
  "updated": "2021-01-14 16:32:00 +0900",
  "children": []

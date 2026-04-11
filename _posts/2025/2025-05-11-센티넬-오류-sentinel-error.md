@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # 센티넬 오류 (Sentinel Error)
-Created: 2025년 5월 11일 오후 3:38
-Tags: golang
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 # 🚫 센티넬 오류 (Sentinel Error) 개념과 예시
 

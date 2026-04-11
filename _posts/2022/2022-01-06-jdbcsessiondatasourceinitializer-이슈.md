@@ -4,7 +4,7 @@ title   : TODO_jdbcSessionDataSourceInitializer 이슈
 summary : '2022-01-06 23:23:12.362 ERROR 14084 - [ main] o.s.boot.SpringApplication : Application run failed'
 date    : 2022-01-06 23:25:00 +0900
 updated : 2026-03-14 01:08:00 +0900
-tag     : notion import
+tag     : spring
 toc     : true
 comment : false
 public  : true
@@ -12,9 +12,6 @@ public  : true
 * TOC
 {:toc}
 # TODO_jdbcSessionDataSourceInitializer 이슈
-Created: 2022년 1월 6일 오후 11:25
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 # 주제 :
 
@@ -125,7 +122,6 @@ Process finished with exit code 1
     
     → implementation 디비 관련된 거 다 날려버림
     
-
 ```jsx
 dependencies {
     implementation('org.springframework.boot:spring-boot-starter-data-jpa')

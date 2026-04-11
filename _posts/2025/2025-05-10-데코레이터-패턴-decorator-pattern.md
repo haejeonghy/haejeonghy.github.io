@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # 데코레이터 패턴 (Decorator Pattern)
-Created: 2025년 5월 10일 오후 9:34
-Tags: 디자인패턴
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 # 데코레이터 패턴 (Decorator Pattern)
 

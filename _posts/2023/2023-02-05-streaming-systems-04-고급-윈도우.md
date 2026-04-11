@@ -1,10 +1,10 @@
 ---
 layout  : post
-title   : Streaming Systems: 04 고급 윈도우
+title   : "Streaming Systems: 04 고급 윈도우"
 summary : '값과 이벤트 시간은 그대로 두고 관측 순서를 변경한 예'
 date    : 2023-02-05 17:28:00 +0900
 updated : 2026-03-14 01:08:00 +0900
-tag     : notion import
+tag     : streaming book
 toc     : true
 comment : false
 public  : true
@@ -12,9 +12,6 @@ public  : true
 * TOC
 {:toc}
 # Streaming Systems: 04 고급 윈도우
-Created: 2023년 2월 5일 오후 5:28
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 # 언제/어디서: 처리시간 윈도우
 
@@ -61,7 +58,6 @@ Created: 2023년 2월 5일 오후 5:28
     
     2개의 서로 다른 관측 순서에 이벤트 시간 윈도우 적용 결과
     
-
 ## 트리거를 사용한 처리 시간 윈도우
 
 - 처리 시간 윈도우가 트리거를 사용하도록 할 때 고려해야 할 세 가지

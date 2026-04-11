@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # Go go.mod 파일의 // indirect
-Created: 2025년 5월 17일 오후 8:48
-Tags: golang
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 # 📦 Go `go.mod` 파일의 `// indirect` 코멘트 설명
 

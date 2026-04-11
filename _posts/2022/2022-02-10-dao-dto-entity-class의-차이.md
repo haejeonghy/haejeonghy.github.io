@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # DAO, DTO, Entity Class의 차이
-Created: 2022년 2월 10일 오후 8:18
-Tags: spring
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 # 주제 :
 
@@ -37,7 +33,6 @@ Tags: spring
     
     ```
     
-
 # DTO(Data Transfer Object) 란?
 
 ## dto package
@@ -86,7 +81,6 @@ Tags: spring
     https://gmlwjd9405.github.io/2018/12/25/difference-dao-dto-entity.html
     ```
     
-
 # Entity Class란
 
 ## domain package

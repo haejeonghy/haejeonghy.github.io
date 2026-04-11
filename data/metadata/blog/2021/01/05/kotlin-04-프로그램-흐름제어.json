@@ -1,7 +1,7 @@
 {
  "type": "blog",
  "title": "Kotlin - 04. 프로그램 흐름제어",
- "summary": "'Last Edited Time: 2022년 10월 26일 오후 10:34 Type: Kotlin Created By: HAE JEONG YU'",
+ "summary": "'코틀린 조건문(if/when/is), 반복문(for/while), 레이블을 활용한 흐름 제어 방법 정리'",
  "url": "/blog/2021/01/05/kotlin-04-프로그램-흐름제어",
  "updated": "2021-01-05 19:30:00 +0900",
  "children": []

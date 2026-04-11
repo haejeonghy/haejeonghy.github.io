@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # Google Wire와 Uber Fx 비교
-Created: 2025년 5월 11일 오후 3:30
-Tags: golang, 의존성주입
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 # 🛠️ Google Wire와 Uber Fx 비교
 

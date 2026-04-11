@@ -4,7 +4,7 @@ title   : 켄트 벡의 Tidy First?
 summary : '켄트 벡의 Tidy First?의 핵심 개념과 실무 포인트를 정리합니다.'
 date    : 2025-02-16 16:16:00 +0900
 updated : 2026-03-14 01:08:00 +0900
-tag     : notion import
+tag     : book
 toc     : true
 comment : false
 public  : true
@@ -12,9 +12,6 @@ public  : true
 * TOC
 {:toc}
 # 켄트 벡의 Tidy First?
-Created: 2025년 2월 16일 오후 4:16
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 # 코드 정리와 리팩토링 원칙
 

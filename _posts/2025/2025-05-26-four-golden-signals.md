@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # Four Golden Signals
-Created: 2025년 5월 26일 오후 6:03
-Tags: SRE
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 Google의 SRE(Site Reliability Engineering) 팀은 분산 시스템을 효과적으로 모니터링하기 위해 네 가지 핵심 지표인 “Four Golden Signals”를 제안하였습니다. 이 지표들은 시스템의 성능과 안정성을 평가하는 데 필수적인 요소로 간주됩니다.
 

@@ -1,10 +1,10 @@
 ---
 layout  : post
-title   : Streaming Systems: 01. 스트리밍 101
+title   : "Streaming Systems: 01. 스트리밍 101"
 summary : '오늘날 빅데이터 분야에서 스트리밍 데이터 처리가 주목받고 있다.'
 date    : 2023-01-08 14:33:00 +0900
 updated : 2026-03-14 01:08:00 +0900
-tag     : notion import
+tag     : streaming book
 toc     : true
 comment : false
 public  : true
@@ -12,9 +12,6 @@ public  : true
 * TOC
 {:toc}
 # Streaming Systems: 01. 스트리밍 101
-Created: 2023년 1월 8일 오후 2:33
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 # Intro
 
@@ -165,7 +162,6 @@ Created: 2023년 1월 8일 오후 2:33
     
     → 모든 이벤트 수집을 확인할 때까지 처리를 지연하거나, 데이터가 늦게 도착하면 소속될 윈도우에 대해 전체 배치를 재실행하는 등의 방법으로 문제의 영향을 완화할 필요가 발생한다. 
     
-
 ### 세션
 
 ![고전적인 배치 엔진에서 임시 방편의 고정 윈도를 통해 무한 데이터를 세션으로 처리하는 모습. 무한 데이터셋은 유한한 고정 크기의 윈도우로 미리 수집된 다음 배치 엔진의 연속 실행을 통해 동적인 세션으로 분리된다. ](/resource/post-format/streaming-systems-01-%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B0%8D-101/Untitled%203.png)

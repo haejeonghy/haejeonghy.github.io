@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # Kubernetes Service 라벨 충돌로 인한 502 이슈 정리
-Created: 2025년 11월 28일 오후 4:37
-Tags: k8s
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 Label → Pod을 부르는 명칭
 
@@ -68,7 +64,6 @@ selector:
     
     → ingress에서 502 발생
     
-
 ---
 
 ## **3. 왜 특정 시간대(18시 이후)에 더 많이 발생했는가?**

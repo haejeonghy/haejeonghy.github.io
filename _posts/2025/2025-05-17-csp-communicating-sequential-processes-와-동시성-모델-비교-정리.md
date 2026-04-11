@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # CSP (Communicating Sequential Processes)와 동시성 모델 비교 정리
-Created: 2025년 5월 17일 오후 8:55
-Tags: CSP, 동시성모델
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 # ⚙️ CSP (Communicating Sequential Processes)와 동시성 모델 비교 정리
 

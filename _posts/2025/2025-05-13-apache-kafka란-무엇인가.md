@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # Apache Kafka란 무엇인가?
-Created: 2025년 5월 13일 오후 5:08
-Tags: kafka
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 ## **🐘 Apache Kafka란 무엇인가?**
 

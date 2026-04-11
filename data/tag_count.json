@@ -1,221 +1,5 @@
 [
  {
-  "name": "aes",
-  "size": 1
- },
- {
-  "name": "architecture",
-  "size": 1
- },
- {
-  "name": "aws",
-  "size": 5
- },
- {
-  "name": "blog",
-  "size": 1
- },
- {
-  "name": "boot",
-  "size": 2
- },
- {
-  "name": "bootstrap",
-  "size": 1
- },
- {
-  "name": "cache",
-  "size": 1
- },
- {
-  "name": "caffeine",
-  "size": 1
- },
- {
-  "name": "client",
-  "size": 2
- },
- {
-  "name": "collation",
-  "size": 1
- },
- {
-  "name": "config",
-  "size": 1
- },
- {
-  "name": "csp",
-  "size": 1
- },
- {
-  "name": "database",
-  "size": 4
- },
- {
-  "name": "ddd",
-  "size": 1
- },
- {
-  "name": "dependency-injection",
-  "size": 1
- },
- {
-  "name": "desk",
-  "size": 1
- },
- {
-  "name": "devops",
-  "size": 2
- },
- {
-  "name": "documentation",
-  "size": 1
- },
- {
-  "name": "fx",
-  "size": 1
- },
- {
-  "name": "github-pages",
-  "size": 1
- },
- {
-  "name": "golang",
-  "size": 29
- },
- {
-  "name": "goroutine",
-  "size": 1
- },
- {
-  "name": "grpc",
-  "size": 2
- },
- {
-  "name": "hexagonal",
-  "size": 1
- },
- {
-  "name": "hibernate",
-  "size": 1
- },
- {
-  "name": "homebrew",
-  "size": 1
- },
- {
-  "name": "html",
-  "size": 1
- },
- {
-  "name": "http",
-  "size": 2
- },
- {
-  "name": "import",
-  "size": 41
- },
- {
-  "name": "interior",
-  "size": 1
- },
- {
-  "name": "javascript",
-  "size": 1
- },
- {
-  "name": "jekyll",
-  "size": 1
- },
- {
-  "name": "jpa",
-  "size": 1
- },
- {
-  "name": "k8s",
-  "size": 12
- },
- {
-  "name": "kafka",
-  "size": 1
- },
- {
-  "name": "kubernetes",
-  "size": 1
- },
- {
-  "name": "macos",
-  "size": 1
- },
- {
-  "name": "mockery",
-  "size": 1
- },
- {
-  "name": "mydata",
-  "size": 1
- },
- {
-  "name": "mysql",
-  "size": 2
- },
- {
-  "name": "network",
-  "size": 5
- },
- {
-  "name": "nonce",
-  "size": 1
- },
- {
-  "name": "notion",
-  "size": 41
- },
- {
-  "name": "productivity",
-  "size": 1
- },
- {
-  "name": "queue",
-  "size": 1
- },
- {
-  "name": "redis",
-  "size": 2
- },
- {
-  "name": "spring",
-  "size": 6
- },
- {
-  "name": "sre",
-  "size": 2
- },
- {
-  "name": "start",
-  "size": 1
- },
- {
-  "name": "tap",
-  "size": 1
- },
- {
-  "name": "test",
-  "size": 2
- },
- {
-  "name": "vpc",
-  "size": 1
- },
- {
-  "name": "webflux",
-  "size": 1
- },
- {
-  "name": "workspace",
-  "size": 1
- },
- {
   "name": "개발",
   "size": 2
  },
@@ -293,6 +77,274 @@
  },
  {
   "name": "흐름제어",
+  "size": 1
+ },
+ {
+  "name": "aes",
+  "size": 1
+ },
+ {
+  "name": "android",
+  "size": 4
+ },
+ {
+  "name": "architecture",
+  "size": 2
+ },
+ {
+  "name": "aws",
+  "size": 5
+ },
+ {
+  "name": "blog",
+  "size": 1
+ },
+ {
+  "name": "book",
+  "size": 7
+ },
+ {
+  "name": "boot",
+  "size": 3
+ },
+ {
+  "name": "bootstrap",
+  "size": 1
+ },
+ {
+  "name": "cache",
+  "size": 2
+ },
+ {
+  "name": "caffeine",
+  "size": 1
+ },
+ {
+  "name": "cglib",
+  "size": 1
+ },
+ {
+  "name": "client",
+  "size": 2
+ },
+ {
+  "name": "cloudevents",
+  "size": 1
+ },
+ {
+  "name": "collation",
+  "size": 1
+ },
+ {
+  "name": "command",
+  "size": 1
+ },
+ {
+  "name": "config",
+  "size": 1
+ },
+ {
+  "name": "copybara",
+  "size": 1
+ },
+ {
+  "name": "csp",
+  "size": 1
+ },
+ {
+  "name": "database",
+  "size": 4
+ },
+ {
+  "name": "ddd",
+  "size": 1
+ },
+ {
+  "name": "dependency-injection",
+  "size": 1
+ },
+ {
+  "name": "desk",
+  "size": 1
+ },
+ {
+  "name": "devops",
+  "size": 2
+ },
+ {
+  "name": "documentation",
+  "size": 1
+ },
+ {
+  "name": "fx",
+  "size": 1
+ },
+ {
+  "name": "github-pages",
+  "size": 1
+ },
+ {
+  "name": "golang",
+  "size": 30
+ },
+ {
+  "name": "goroutine",
+  "size": 1
+ },
+ {
+  "name": "gradle",
+  "size": 1
+ },
+ {
+  "name": "grpc",
+  "size": 2
+ },
+ {
+  "name": "hexagonal",
+  "size": 1
+ },
+ {
+  "name": "hibernate",
+  "size": 1
+ },
+ {
+  "name": "homebrew",
+  "size": 1
+ },
+ {
+  "name": "html",
+  "size": 1
+ },
+ {
+  "name": "http",
+  "size": 2
+ },
+ {
+  "name": "intellij",
+  "size": 1
+ },
+ {
+  "name": "interior",
+  "size": 1
+ },
+ {
+  "name": "javascript",
+  "size": 1
+ },
+ {
+  "name": "jekyll",
+  "size": 1
+ },
+ {
+  "name": "jpa",
+  "size": 2
+ },
+ {
+  "name": "k8s",
+  "size": 12
+ },
+ {
+  "name": "kafka",
+  "size": 1
+ },
+ {
+  "name": "kotlin",
+  "size": 16
+ },
+ {
+  "name": "kubernetes",
+  "size": 1
+ },
+ {
+  "name": "macos",
+  "size": 1
+ },
+ {
+  "name": "mockery",
+  "size": 1
+ },
+ {
+  "name": "mydata",
+  "size": 1
+ },
+ {
+  "name": "mysql",
+  "size": 2
+ },
+ {
+  "name": "network",
+  "size": 7
+ },
+ {
+  "name": "nonce",
+  "size": 1
+ },
+ {
+  "name": "pattern",
+  "size": 2
+ },
+ {
+  "name": "productivity",
+  "size": 1
+ },
+ {
+  "name": "proxy",
+  "size": 1
+ },
+ {
+  "name": "queue",
+  "size": 1
+ },
+ {
+  "name": "redis",
+  "size": 3
+ },
+ {
+  "name": "serialization",
+  "size": 1
+ },
+ {
+  "name": "spring",
+  "size": 9
+ },
+ {
+  "name": "sre",
+  "size": 2
+ },
+ {
+  "name": "start",
+  "size": 1
+ },
+ {
+  "name": "streaming",
+  "size": 5
+ },
+ {
+  "name": "study",
+  "size": 2
+ },
+ {
+  "name": "tap",
+  "size": 1
+ },
+ {
+  "name": "template",
+  "size": 3
+ },
+ {
+  "name": "test",
+  "size": 2
+ },
+ {
+  "name": "vpc",
+  "size": 1
+ },
+ {
+  "name": "webflux",
+  "size": 1
+ },
+ {
+  "name": "workspace",
   "size": 1
  }
 ]

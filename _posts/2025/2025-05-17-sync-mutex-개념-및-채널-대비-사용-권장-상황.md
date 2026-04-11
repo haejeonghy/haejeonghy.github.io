@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # sync.Mutex 개념 및 채널 대비 사용 권장 상황
-Created: 2025년 5월 17일 오후 9:02
-Tags: golang, 동시성제어
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 # 🔒 `sync.Mutex` 개념 및 채널 대비 사용 권장 상황
 

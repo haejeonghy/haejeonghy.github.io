@@ -1,10 +1,10 @@
 ---
 layout  : post
-title   : Streaming Systems: 05 ‘정확히 한 번’ 보장과 부작용
+title   : "Streaming Systems: 05 ‘정확히 한 번’ 보장과 부작용"
 summary : '데이터 플로우가 생성하는 셔플의 모습'
 date    : 2023-02-19 17:17:00 +0900
 updated : 2026-03-14 01:08:00 +0900
-tag     : notion import
+tag     : streaming book
 toc     : true
 comment : false
 public  : true
@@ -12,9 +12,6 @@ public  : true
 * TOC
 {:toc}
 # Streaming Systems: 05 ‘정확히 한 번’ 보장과 부작용
-Created: 2023년 2월 19일 오후 5:17
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 - 시스템이 정확한 결과를 얻기 위해 빔 모델을 올바르게 구현하는 방법에 대해 다룬다.
 - ‘정확히 한 번 exactly-once’ 보장

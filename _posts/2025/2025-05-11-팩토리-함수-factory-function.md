@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # 팩토리 함수 (Factory Function)
-Created: 2025년 5월 11일 오후 3:23
-Tags: golang, 프로그래밍
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 ---
 

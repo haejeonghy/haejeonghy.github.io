@@ -4,7 +4,7 @@ title   : CloudEvents
 summary : '🏷️ #CloudEvents #MSA #이벤트기반아키텍처'
 date    : 2025-02-16 16:25:00 +0900
 updated : 2026-03-14 01:08:00 +0900
-tag     : notion import
+tag     : cloudevents
 toc     : true
 comment : false
 public  : true
@@ -12,9 +12,6 @@ public  : true
 * TOC
 {:toc}
 # CloudEvents
-Created: 2025년 2월 16일 오후 4:25
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 # 🌐 CloudEvents & MSA에서의 역할
 

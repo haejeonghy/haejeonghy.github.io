@@ -14,9 +14,6 @@
     name: alfred-aho
     size: 1
 -
-    name: algirithm
-    size: 1
--
     name: algorithm
     size: 14
 -
@@ -237,9 +234,6 @@
     size: 6
 -
     name: github
-    size: 1
--
-    name: gloang
     size: 1
 -
     name: gnu

@@ -1,10 +1,10 @@
 ---
 layout  : post
 title   : Architecture Overview
-summary : 'Last Edited Time: 2021년 1월 3일 오후 10:26 Type: Architecture Overview Created By: HAE JEONG YU'
+summary : '소프트웨어 컴포넌트의 아키텍처를 문서화하기 위한 빈 템플릿 (설명, 다이어그램, 클라이언트/서버/DB 섹션 포함)'
 date    : 2021-01-03 22:26:00 +0900
 updated : 2021-01-03 22:26:00 +0900
-tag     : notion import
+tag     : architecture
 toc     : true
 comment : false
 public  : true
@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # Architecture Overview
-Created: 2021년 1월 3일 오후 10:26
-Last Edited Time: 2021년 1월 3일 오후 10:26
-Type: Architecture Overview
-Created By: HAE JEONG YU
 
 # Description
 

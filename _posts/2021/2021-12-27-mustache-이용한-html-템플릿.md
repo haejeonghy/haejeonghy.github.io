@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # mustache 이용한 html 템플릿
-Created: 2021년 12월 27일 오후 11:32
-Tags: HTML
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 **1) 개요**
 

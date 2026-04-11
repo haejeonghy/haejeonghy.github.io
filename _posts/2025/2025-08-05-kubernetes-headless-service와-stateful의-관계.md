@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # Kubernetes Headless Service와 Stateful의 관계
-Created: 2025년 8월 5일 오후 11:10
-Tags: k8s
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 ## 1. Headless Service란?
 

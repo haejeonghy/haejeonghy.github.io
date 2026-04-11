@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # golang exit code
-Created: 2025년 6월 6일 오후 6:28
-Tags: golang
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 ---
 

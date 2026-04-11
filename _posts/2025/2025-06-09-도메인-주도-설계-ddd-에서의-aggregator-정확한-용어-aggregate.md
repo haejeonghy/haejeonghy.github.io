@@ -1,6 +1,6 @@
 ---
 layout  : post
-title   : 도메인 주도 설계(DDD)에서의 Aggregator (정확한 용어: Aggregate)
+title   : "도메인 주도 설계(DDD)에서의 Aggregator (정확한 용어: Aggregate)"
 summary : 'Aggregate > > > 일관성 있는 상태를 유지하는 객체들의 집합 >'
 date    : 2025-06-09 21:04:00 +0900
 updated : 2026-03-14 01:08:00 +0900
@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # 도메인 주도 설계(DDD)에서의 Aggregator (정확한 용어: Aggregate)
-Created: 2025년 6월 9일 오후 9:04
-Tags: DDD
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 ## **📘 도메인 주도 설계(DDD)에서의 Aggregator (정확한 용어: Aggregate)**
 

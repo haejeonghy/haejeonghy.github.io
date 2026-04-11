@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "Spring Boot + Redis Cache 내부 동작 정리 - Proxy, CGLIB, Serialization, Supplier",
+ "summary": "Spring Cache가 프록시로 동작하는 이유부터 CGLIB, Redis 직렬화 방식, lazy loader 개념까지 한 번에 정리합니다.",
+ "url": "/blog/2026/04/06/spring-boot-redis-cache-internals",
+ "updated": "2026-04-06 09:00:00 +0900",
+ "children": []
+}

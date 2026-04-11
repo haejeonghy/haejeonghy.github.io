@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # 옵저버 패턴 (Observer Pattern)
-Created: 2025년 6월 9일 오후 9:09
-Tags: 디자인패턴
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 ---
 

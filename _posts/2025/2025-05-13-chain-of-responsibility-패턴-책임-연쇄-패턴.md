@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # Chain of Responsibility 패턴 (책임 연쇄 패턴
-Created: 2025년 5월 13일 오후 5:04
-Tags: 디자인패턴
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 ## **🧩 Chain of Responsibility 패턴 (책임 연쇄 패턴)**
 

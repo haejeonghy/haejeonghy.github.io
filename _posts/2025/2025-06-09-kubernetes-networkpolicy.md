@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # Kubernetes NetworkPolicy
-Created: 2025년 6월 9일 오후 2:37
-Tags: k8s
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 ---
 

@@ -1,7 +1,7 @@
 {
  "type": "blog",
  "title": "Kotlin - 05. 클래스와 객체",
- "summary": "'Last Edited Time: 2022년 10월 26일 오후 10:34 Type: Kotlin Created By: HAE JEONG YU'",
+ "summary": "'코틀린 클래스와 객체의 개념, 기본 생성자·보조 생성자 선언 및 인스턴스 사용법 정리'",
  "url": "/blog/2021/01/05/kotlin-05-클래스와-객체",
  "updated": "2021-01-05 21:25:00 +0900",
  "children": []

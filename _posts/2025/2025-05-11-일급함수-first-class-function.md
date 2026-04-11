@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # 일급함수(First-Class Function)
-Created: 2025년 5월 11일 오후 3:17
-Tags: 프로그래밍
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 ### **📚 일급 함수 (First-Class Function) 개념 정리**
 

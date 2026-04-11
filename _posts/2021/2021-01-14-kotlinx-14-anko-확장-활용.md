@@ -1,10 +1,10 @@
 ---
 layout  : post
 title   : Kotlinx - 14. Anko 확장 활용
-summary : 'Last Edited Time: 2022년 10월 26일 오후 10:34 Type: Kotlin, android Created By: HAE JEONG YU'
+summary : 'Anko 라이브러리의 SQLite·Coroutines 모듈을 활용해 기존 방식보다 간결하게 안드로이드 개발하는 방법 정리'
 date    : 2021-01-14 16:32:00 +0900
 updated : 2021-01-14 16:32:00 +0900
-tag     : notion import
+tag     : kotlin android
 toc     : true
 comment : false
 public  : true
@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # Kotlinx - 14. Anko 확장 활용
-Created: 2021년 1월 14일 오후 4:32
-Last Edited Time: 2022년 10월 26일 오후 10:34
-Type: Kotlin, android
-Created By: HAE JEONG YU
 
 <aside>
 💡 제목 : Anko SQLite, Anko Coroutines 사용하여 기존 방법보다 더 쉽게 접근하기

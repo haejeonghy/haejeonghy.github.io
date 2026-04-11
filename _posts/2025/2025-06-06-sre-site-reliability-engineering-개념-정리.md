@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # SRE (Site Reliability Engineering) 개념 정리
-Created: 2025년 6월 6일 오후 6:21
-Tags: DevOps, SRE
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 ---
 

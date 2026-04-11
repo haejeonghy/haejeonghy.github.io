@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # Backpressure 개념
-Created: 2025년 5월 26일 오후 5:36
-Tags: golang, goroutine, 비동기프로그래밍, 흐름제어
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 ---
 

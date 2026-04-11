@@ -1,10 +1,10 @@
 ---
 layout  : post
-title   : Streaming Systems: 03. 워터마크
+title   : "Streaming Systems: 03. 워터마크"
 summary : '스트리밍 파이프라인 내에서 처리 중 및 완료된 데이터 이벤트 시간 분포. 새로운 데이터는 입력으로 도착하고 처리될 때까지 처리 중(in-flight) 상태로 유지된다. 처리 중 분포의 가장 왼쪽 가장자리가 가장 오래'
 date    : 2023-01-28 12:40:00 +0900
 updated : 2026-03-14 01:08:00 +0900
-tag     : notion import
+tag     : streaming book
 toc     : true
 comment : false
 public  : true
@@ -12,9 +12,6 @@ public  : true
 * TOC
 {:toc}
 # Streaming Systems: 03. 워터마크
-Created: 2023년 1월 28일 오후 12:40
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 # 워터마크
 

@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # file handle
-Created: 2025년 5월 8일 오후 11:17
-Tags: 컴퓨터기초
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 ### **📝 파일 핸들 (File Handle) 정리**
 

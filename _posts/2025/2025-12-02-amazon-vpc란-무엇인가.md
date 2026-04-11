@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # Amazon VPC란 무엇인가?
-Created: 2025년 12월 2일 오후 9:13
-Tags: AWS
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 ![image.png](/resource/post-format/amazon-vpc%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80/image.png)
 

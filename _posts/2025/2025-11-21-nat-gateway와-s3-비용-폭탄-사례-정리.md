@@ -12,11 +12,7 @@ public  : true
 * TOC
 {:toc}
 # NAT Gateway와 S3 비용 폭탄 사례 정리
-Created: 2025년 11월 21일 오후 12:36
-Tags: AWS, 인프라
 URL: https://news.hada.io/topic?id=24504
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 ---
 

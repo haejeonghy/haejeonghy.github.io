@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # gRPC 에러 처리와 status.FromError
-Created: 2025년 5월 13일 오전 11:38
-Tags: golang, grpc
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 ---
 
@@ -110,7 +106,6 @@ if ok {
     
     [What You Need To Know About gRPC Error Handling](https://medium.com/better-programming/what-you-need-to-know-about-grpc-error-handling-1ac0a9d796d7)
     
-
 ---
 
 ### **🏷️ 태그 제안**

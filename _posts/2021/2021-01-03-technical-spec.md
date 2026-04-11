@@ -1,10 +1,10 @@
 ---
 layout  : post
 title   : Technical Spec
-summary : 'Last Edited Time: 2021년 1월 3일 오후 10:26 Type: Technical Spec Created By: HAE JEONG YU'
+summary : '기술 명세서 작성 템플릿 (배경, 목표, 제안 솔루션, 리스크, 마일스톤 섹션 포함)'
 date    : 2021-01-03 22:26:00 +0900
 updated : 2021-01-03 22:26:00 +0900
-tag     : notion import
+tag     : template
 toc     : true
 comment : false
 public  : true
@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # Technical Spec
-Created: 2021년 1월 3일 오후 10:26
-Last Edited Time: 2021년 1월 3일 오후 10:26
-Type: Technical Spec
-Created By: HAE JEONG YU
 
 # Summary
 

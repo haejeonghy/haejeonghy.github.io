@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # Golang에서 http.Client 의 개념
-Created: 2025년 6월 6일 오후 6:32
-Tags: golang
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 Go에서 “client”라는 용어는 일반적으로 **무언가에 요청(Request)을 보내는 역할을 하는 객체 또는 구조체**를 의미합니다. 특히 http.Client는 HTTP 프로토콜을 사용하여 **외부 서버에 요청을 보내고 응답을 받는 기능을 담당하는 구조체**입니다.
 

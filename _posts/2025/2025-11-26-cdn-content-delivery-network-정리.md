@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # CDN(Content Delivery Network) 정리
-Created: 2025년 11월 26일 오후 11:02
-Tags: Network
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 ## **1. 개념**
 

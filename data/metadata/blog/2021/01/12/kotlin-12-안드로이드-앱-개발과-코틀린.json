@@ -1,7 +1,7 @@
 {
  "type": "blog",
  "title": "Kotlin - 12. 안드로이드 앱 개발과 코틀린",
- "summary": "'Last Edited Time: 2022년 10월 26일 오후 10:34 Type: Kotlin, android Created By: HAE JEONG YU'",
+ "summary": "'코틀린을 활용한 안드로이드 앱 개발 환경 설정, Gradle 구성, 코딩 규칙 정리'",
  "url": "/blog/2021/01/12/kotlin-12-안드로이드-앱-개발과-코틀린",
  "updated": "2021-01-12 11:24:00 +0900",
  "children": []

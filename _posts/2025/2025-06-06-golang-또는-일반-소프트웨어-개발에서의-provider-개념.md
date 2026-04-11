@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # Golang 또는 일반 소프트웨어 개발에서의 Provider 개념
-Created: 2025년 6월 6일 오후 6:34
-Tags: golang
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 ---
 

@@ -1,7 +1,7 @@
 {
  "type": "blog",
  "title": "Kotlin - 01. 코틀린 시작하기",
- "summary": "'Last Edited Time: 2022년 10월 26일 오후 10:34 Type: Kotlin Created By: HAE JEONG YU'",
+ "summary": "'코틀린 언어의 등장 배경과 특징, JVM/JS/Native 멀티플랫폼 지원 및 정적 타입·널 안전성 장점 정리'",
  "url": "/blog/2021/01/04/kotlin-01-코틀린-시작하기",
  "updated": "2021-01-04 20:57:00 +0900",
  "children": []

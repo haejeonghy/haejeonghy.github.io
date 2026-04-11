@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # 구성(Composition)과 상속(Inheritance)의 차이
-Created: 2025년 5월 12일 오후 10:14
-Tags: 프로그래밍
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 **구성(Composition)과 상속(Inheritance)의 차이**
 

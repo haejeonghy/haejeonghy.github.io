@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # kubernetes exit code
-Created: 2025년 5월 27일 오전 11:47
-Tags: k8s
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 Kubernetes에서 컨테이너의 종료 상태를 나타내는 **Exit Code**는 애플리케이션의 실행 결과를 진단하고 문제를 해결하는 데 중요한 정보를 제공합니다. 이러한 코드들은 주로 Unix/Linux 시스템의 종료 코드 규칙을 따르며, Kubernetes 자체에서 정의한 것은 아닙니다. 아래는 자주 발생하는 Exit Code와 그 의미를 정리한 것입니다.
 

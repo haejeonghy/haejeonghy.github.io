@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # corner case
-Created: 2025년 5월 8일 오후 11:10
-Tags: 개발기초
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 ### **📝 코너 케이스 (Corner Case) 정리**
 

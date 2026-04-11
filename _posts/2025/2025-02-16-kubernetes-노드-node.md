@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # Kubernetes 노드(Node)
-Created: 2025년 2월 16일 오후 4:35
-Tags: k8s
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 # 🚀 Kubernetes 노드(Node) 개요
 

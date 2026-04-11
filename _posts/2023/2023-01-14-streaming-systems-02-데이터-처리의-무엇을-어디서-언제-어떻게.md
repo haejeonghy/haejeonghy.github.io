@@ -1,10 +1,10 @@
 ---
 layout  : post
-title   : Streaming Systems: 02. 데이터 처리의 무엇을, 어디서, 언제, 어떻게
+title   : "Streaming Systems: 02. 데이터 처리의 무엇을, 어디서, 언제, 어떻게"
 summary : '이벤트 시간과 처리 시간으로 그려진 9개의 입력 점수'
 date    : 2023-01-14 16:47:00 +0900
 updated : 2026-03-14 01:08:00 +0900
-tag     : notion import
+tag     : streaming book
 toc     : true
 comment : false
 public  : true
@@ -12,9 +12,6 @@ public  : true
 * TOC
 {:toc}
 # Streaming Systems: 02. 데이터 처리의 무엇을, 어디서, 언제, 어떻게
-Created: 2023년 1월 14일 오후 4:47
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 - 데이터 처리 패턴에 대해 좀 더 자세하고 구체적인 예
 

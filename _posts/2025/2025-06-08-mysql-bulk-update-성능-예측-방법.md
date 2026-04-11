@@ -12,10 +12,6 @@ public  : true
 * TOC
 {:toc}
 # MySQL Bulk Update 성능 예측 방법
-Created: 2025년 6월 8일 오후 3:40
-Tags: Database
-보관소: No
-최종 편집 일시: 2026년 3월 14일 오전 1:08
 
 ## **📌 MySQL Bulk Update 성능 예측 방법 정리**
 
