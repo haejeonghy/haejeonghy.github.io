@@ -1,11 +1,7 @@
 [
  {
-  "name": "개발",
-  "size": 2
- },
- {
   "name": "개발기초",
-  "size": 3
+  "size": 2
  },
  {
   "name": "기술",
@@ -45,15 +41,11 @@
  },
  {
   "name": "아키텍처",
-  "size": 3
+  "size": 2
  },
  {
   "name": "암호학",
   "size": 1
- },
- {
-  "name": "예정",
-  "size": 11
  },
  {
   "name": "의존성주입",
@@ -61,10 +53,6 @@
  },
  {
   "name": "인프라",
-  "size": 1
- },
- {
-  "name": "칼럼",
   "size": 1
  },
  {
@@ -84,24 +72,16 @@
   "size": 1
  },
  {
-  "name": "android",
-  "size": 4
- },
- {
   "name": "architecture",
-  "size": 2
- },
- {
-  "name": "aws",
-  "size": 5
- },
- {
-  "name": "blog",
   "size": 1
  },
  {
+  "name": "aws",
+  "size": 2
+ },
+ {
   "name": "book",
-  "size": 7
+  "size": 6
  },
  {
   "name": "boot",
@@ -164,10 +144,6 @@
   "size": 1
  },
  {
-  "name": "desk",
-  "size": 1
- },
- {
   "name": "devops",
   "size": 2
  },
@@ -180,19 +156,11 @@
   "size": 1
  },
  {
-  "name": "github-pages",
-  "size": 1
- },
- {
   "name": "golang",
-  "size": 30
+  "size": 29
  },
  {
   "name": "goroutine",
-  "size": 1
- },
- {
-  "name": "gradle",
   "size": 1
  },
  {
@@ -224,32 +192,16 @@
   "size": 1
  },
  {
-  "name": "interior",
-  "size": 1
- },
- {
-  "name": "javascript",
-  "size": 1
- },
- {
-  "name": "jekyll",
-  "size": 1
- },
- {
   "name": "jpa",
   "size": 2
  },
  {
   "name": "k8s",
-  "size": 12
+  "size": 11
  },
  {
   "name": "kafka",
   "size": 1
- },
- {
-  "name": "kotlin",
-  "size": 16
  },
  {
   "name": "kubernetes",
@@ -281,18 +233,10 @@
  },
  {
   "name": "pattern",
-  "size": 2
- },
- {
-  "name": "productivity",
   "size": 1
  },
  {
   "name": "proxy",
-  "size": 1
- },
- {
-  "name": "queue",
   "size": 1
  },
  {
@@ -312,24 +256,12 @@
   "size": 2
  },
  {
-  "name": "start",
-  "size": 1
- },
- {
   "name": "streaming",
   "size": 5
  },
  {
-  "name": "study",
-  "size": 2
- },
- {
   "name": "tap",
   "size": 1
- },
- {
-  "name": "template",
-  "size": 3
  },
  {
   "name": "test",
@@ -341,10 +273,6 @@
  },
  {
   "name": "webflux",
-  "size": 1
- },
- {
-  "name": "workspace",
   "size": 1
  }
 ]
