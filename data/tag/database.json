@@ -2,5 +2,6 @@
  "/blog/2025/05/27/커버링-인덱스",
  "/blog/2025/06/08/mysql-bulk-update-성능-예측-방법",
  "/blog/2026/03/14/데이터-중심-애플리케이션-설계-공부-정리",
- "/blog/2026/03/26/hibernate-schema-create-index-column-not-found"
+ "/blog/2026/03/26/hibernate-schema-create-index-column-not-found",
+ "/blog/2026/05/31/datasource-vs-connection-pool"
 ]

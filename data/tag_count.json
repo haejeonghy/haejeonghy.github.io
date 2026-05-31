@@ -64,6 +64,10 @@
   "size": 1
  },
  {
+  "name": "connection-pool",
+  "size": 1
+ },
+ {
   "name": "copybara",
   "size": 1
  },
@@ -73,7 +77,11 @@
  },
  {
   "name": "database",
-  "size": 4
+  "size": 5
+ },
+ {
+  "name": "datasource",
+  "size": 1
  },
  {
   "name": "ddd",
@@ -120,6 +128,10 @@
   "size": 1
  },
  {
+  "name": "hikari",
+  "size": 1
+ },
+ {
   "name": "homebrew",
   "size": 1
  },
@@ -133,6 +145,10 @@
  },
  {
   "name": "intellij",
+  "size": 1
+ },
+ {
+  "name": "jdbc",
   "size": 1
  },
  {
@@ -217,7 +233,7 @@
  },
  {
   "name": "spring",
-  "size": 9
+  "size": 10
  },
  {
   "name": "sre",

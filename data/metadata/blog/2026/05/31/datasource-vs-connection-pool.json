@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "DataSource와 Connection Pool이 왜 헷갈릴까",
+ "summary": "DataSource와 connection pool이 왜 같은 뜻처럼 들리는지, DataSource의 실제 역할과 용도를 중심으로 차이와 관계를 자세히 정리합니다.",
+ "url": "/blog/2026/05/31/datasource-vs-connection-pool",
+ "updated": "2026-05-31 15:24:00 +0900",
+ "children": []
+}
