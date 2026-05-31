@@ -2,8 +2,8 @@
 layout: post
 title: Spring HTTP 클라이언트 선택 가이드 - OpenFeign, RestTemplate, WebClient, RestClient 비교
 summary: Spring에서 자주 비교되는 OpenFeign, RestTemplate, WebClient, RestClient의 용도와 공통점, 차이점, 같은 기능의 구현 예시, 지금 기준의 선택 기준을 한 번에 정리합니다.
-date: 2026-05-31 23:20:00 +0900
-updated: 2026-05-31 23:20:00 +0900
+date: 2026-05-31 14:30:00 +0900
+updated: 2026-05-31 14:30:00 +0900
 tag: spring http client openfeign webclient resttemplate restclient
 toc: true
 comment: false
