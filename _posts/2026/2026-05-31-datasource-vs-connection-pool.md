@@ -102,6 +102,26 @@ Spring, JPA, MyBatis, `JdbcTemplate`, 트랜잭션 매니저 같은 것들은 �
 
 여기서 말하는 영속성(persistence)도 결국 데이터가 메모리를 넘어 DB에 저장되고 다시 조회되는 흐름을 뜻하는데, 이 영속성 계층이 실제 DB와 통신하려면 최종적으로는 `DataSource`를 통한 JDBC 연결이 필요하다.
 
+참고로 `JdbcTemplate`의 용도는 JDBC 반복 코드를 줄이는 데 있다.
+
+- 커넥션 획득
+- `PreparedStatement` 생성
+- 파라미터 바인딩
+- `ResultSet` 순회
+- 예외 변환
+- 커넥션 반납
+
+같은 작업을 템플릿화해서, 개발자는 SQL과 매핑 코드에 더 집중하게 만든다.
+
+반면 MyBatis는 단순 JDBC 보조 유틸리티라기보다 SQL 매퍼 프레임워크에 가깝다.
+
+- `JdbcTemplate`
+  JDBC 위에서 비교적 얇게 동작하며 SQL 실행을 편하게 해주는 도구
+- MyBatis
+  SQL을 매퍼 XML이나 인터페이스에 선언하고 객체 매핑까지 조직해주는 프레임워크
+
+즉, 둘 다 결국 내부적으로는 `DataSource`를 통해 커넥션을 얻지만, `JdbcTemplate`는 JDBC 작업 단순화에 더 가깝고 MyBatis는 SQL 매핑 구조화에 더 가깝다.
+
 ### 3.4 운영 설정의 캡슐화
 
 보통 운영 환경에서는 아래 정보가 함께 붙는다.
