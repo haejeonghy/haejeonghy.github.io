@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "Spring Data, JPA, Hibernate, JDBC의 관계를 한 번에 정리하기",
+ "summary": "Repository, CrudRepository, PagingAndSortingRepository, JpaRepository부터 JPA, Hibernate, ORM, JDBC, JDK 인터페이스까지 서로 어떤 층위에서 연결되는지 체계적으로 정리합니다.",
+ "url": "/blog/2026/06/03/spring-data-jpa-hibernate-jdbc-relationship",
+ "updated": "2026-06-03 22:05:00 +0900",
+ "children": []
+}

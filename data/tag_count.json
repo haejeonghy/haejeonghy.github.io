@@ -76,6 +76,10 @@
   "size": 1
  },
  {
+  "name": "data",
+  "size": 1
+ },
+ {
   "name": "database",
   "size": 5
  },
@@ -125,7 +129,7 @@
  },
  {
   "name": "hibernate",
-  "size": 1
+  "size": 2
  },
  {
   "name": "hikari",
@@ -149,11 +153,11 @@
  },
  {
   "name": "jdbc",
-  "size": 1
+  "size": 2
  },
  {
   "name": "jpa",
-  "size": 2
+  "size": 3
  },
  {
   "name": "k8s",
@@ -204,6 +208,10 @@
   "size": 1
  },
  {
+  "name": "orm",
+  "size": 1
+ },
+ {
   "name": "pattern",
   "size": 1
  },
@@ -220,6 +228,10 @@
   "size": 3
  },
  {
+  "name": "repository",
+  "size": 1
+ },
+ {
   "name": "restclient",
   "size": 1
  },
@@ -233,7 +245,7 @@
  },
  {
   "name": "spring",
-  "size": 10
+  "size": 11
  },
  {
   "name": "sre",

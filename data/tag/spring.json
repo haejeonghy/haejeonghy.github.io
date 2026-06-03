@@ -8,5 +8,6 @@
  "/blog/2026/04/02/spring-boot-caching-overview",
  "/blog/2026/04/06/spring-boot-redis-cache-internals",
  "/blog/2026/05/31/datasource-vs-connection-pool",
- "/blog/2026/05/31/spring-http-client-choice-guide"
+ "/blog/2026/05/31/spring-http-client-choice-guide",
+ "/blog/2026/06/03/spring-data-jpa-hibernate-jdbc-relationship"
 ]
