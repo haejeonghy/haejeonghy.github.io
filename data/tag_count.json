@@ -1,5 +1,73 @@
 [
  {
+  "name": "개발기초",
+  "size": 2
+ },
+ {
+  "name": "기술",
+  "size": 1
+ },
+ {
+  "name": "동시성",
+  "size": 1
+ },
+ {
+  "name": "동시성모델",
+  "size": 1
+ },
+ {
+  "name": "동시성제어",
+  "size": 1
+ },
+ {
+  "name": "디자인패턴",
+  "size": 3
+ },
+ {
+  "name": "문서화",
+  "size": 1
+ },
+ {
+  "name": "비동기프로그래밍",
+  "size": 1
+ },
+ {
+  "name": "설계",
+  "size": 2
+ },
+ {
+  "name": "스프링",
+  "size": 1
+ },
+ {
+  "name": "아키텍처",
+  "size": 2
+ },
+ {
+  "name": "암호학",
+  "size": 1
+ },
+ {
+  "name": "의존성주입",
+  "size": 2
+ },
+ {
+  "name": "인프라",
+  "size": 1
+ },
+ {
+  "name": "컴퓨터기초",
+  "size": 2
+ },
+ {
+  "name": "프로그래밍",
+  "size": 4
+ },
+ {
+  "name": "흐름제어",
+  "size": 1
+ },
+ {
   "name": "aes",
   "size": 1
  },
@@ -25,7 +93,7 @@
  },
  {
   "name": "boot",
-  "size": 3
+  "size": 4
  },
  {
   "name": "bootstrap",
@@ -124,12 +192,16 @@
   "size": 2
  },
  {
+  "name": "h2",
+  "size": 1
+ },
+ {
   "name": "hexagonal",
   "size": 1
  },
  {
   "name": "hibernate",
-  "size": 2
+  "size": 3
  },
  {
   "name": "hikari",
@@ -152,12 +224,16 @@
   "size": 1
  },
  {
+  "name": "java",
+  "size": 1
+ },
+ {
   "name": "jdbc",
   "size": 2
  },
  {
   "name": "jpa",
-  "size": 3
+  "size": 4
  },
  {
   "name": "k8s",
@@ -168,11 +244,19 @@
   "size": 1
  },
  {
+  "name": "kotlin",
+  "size": 1
+ },
+ {
   "name": "kubernetes",
   "size": 1
  },
  {
   "name": "macos",
+  "size": 1
+ },
+ {
+  "name": "main",
   "size": 1
  },
  {
@@ -245,11 +329,15 @@
  },
  {
   "name": "spring",
-  "size": 11
+  "size": 12
  },
  {
   "name": "sre",
   "size": 2
+ },
+ {
+  "name": "static",
+  "size": 1
  },
  {
   "name": "streaming",
@@ -274,73 +362,5 @@
  {
   "name": "webflux",
   "size": 2
- },
- {
-  "name": "개발기초",
-  "size": 2
- },
- {
-  "name": "기술",
-  "size": 1
- },
- {
-  "name": "동시성",
-  "size": 1
- },
- {
-  "name": "동시성모델",
-  "size": 1
- },
- {
-  "name": "동시성제어",
-  "size": 1
- },
- {
-  "name": "디자인패턴",
-  "size": 3
- },
- {
-  "name": "문서화",
-  "size": 1
- },
- {
-  "name": "비동기프로그래밍",
-  "size": 1
- },
- {
-  "name": "설계",
-  "size": 2
- },
- {
-  "name": "스프링",
-  "size": 1
- },
- {
-  "name": "아키텍처",
-  "size": 2
- },
- {
-  "name": "암호학",
-  "size": 1
- },
- {
-  "name": "의존성주입",
-  "size": 2
- },
- {
-  "name": "인프라",
-  "size": 1
- },
- {
-  "name": "컴퓨터기초",
-  "size": 2
- },
- {
-  "name": "프로그래밍",
-  "size": 4
- },
- {
-  "name": "흐름제어",
-  "size": 1
  }
 ]

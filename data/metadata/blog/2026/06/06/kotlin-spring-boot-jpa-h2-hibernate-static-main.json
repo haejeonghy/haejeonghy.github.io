@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "Kotlin, Spring Boot, JPA, H2, Hibernate, static, main을 한 번에 다시 정리하기",
+ "summary": "Kotlin과 Spring Boot로 JPA를 공부하면서 헷갈리기 쉬운 static, main 함수, H2, Hibernate, EntityManager, ddl-auto, EntityManagerFactory 관리 방식을 한 흐름으로 정리합니다.",
+ "url": "/blog/2026/06/06/kotlin-spring-boot-jpa-h2-hibernate-static-main",
+ "updated": "2026-06-06 14:33:29 +0900",
+ "children": []
+}
