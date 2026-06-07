@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "Spring Boot JPA에서 camelCase 필드가 왜 snake_case 컬럼으로 생성될까",
+ "summary": "Spring Boot와 Hibernate를 함께 쓸 때 modifiedTime 같은 엔티티 필드가 왜 modified_time 컬럼으로 생성되는지, implicit naming strategy와 physical naming strategy 차이까지 정리합니다.",
+ "url": "/blog/2026/06/07/spring-boot-hibernate-naming-strategy",
+ "updated": "2026-06-07 16:20:00 +0900",
+ "children": []
+}
