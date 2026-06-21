@@ -96,8 +96,12 @@
   "size": 1
  },
  {
-  "name": "delegation",
+  "name": "delegated-property",
   "size": 1
+ },
+ {
+  "name": "delegation",
+  "size": 2
  },
  {
   "name": "dependency-injection",
@@ -189,7 +193,7 @@
  },
  {
   "name": "kotlin",
-  "size": 3
+  "size": 4
  },
  {
   "name": "kubernetes",
@@ -237,7 +241,7 @@
  },
  {
   "name": "oop",
-  "size": 1
+  "size": 2
  },
  {
   "name": "openfeign",
@@ -249,6 +253,10 @@
  },
  {
   "name": "pattern",
+  "size": 1
+ },
+ {
+  "name": "property",
   "size": 1
  },
  {
