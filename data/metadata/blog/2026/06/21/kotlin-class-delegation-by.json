@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "Kotlin의 `by` 클래스 위임은 상속이 아니라 부품 조립에 가깝다",
+ "summary": "Kotlin의 `by` 클래스 위임을 핫초코 예제로 이해해 보고, 상속과 무엇이 다른지, 왜 유연한지, 장단점은 무엇인지 정리합니다.",
+ "url": "/blog/2026/06/21/kotlin-class-delegation-by",
+ "updated": "2026-06-21 15:20:00 +0900",
+ "children": []
+}

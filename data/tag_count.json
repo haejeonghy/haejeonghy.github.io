@@ -1,73 +1,5 @@
 [
  {
-  "name": "개발기초",
-  "size": 2
- },
- {
-  "name": "기술",
-  "size": 1
- },
- {
-  "name": "동시성",
-  "size": 1
- },
- {
-  "name": "동시성모델",
-  "size": 1
- },
- {
-  "name": "동시성제어",
-  "size": 1
- },
- {
-  "name": "디자인패턴",
-  "size": 3
- },
- {
-  "name": "문서화",
-  "size": 1
- },
- {
-  "name": "비동기프로그래밍",
-  "size": 1
- },
- {
-  "name": "설계",
-  "size": 2
- },
- {
-  "name": "스프링",
-  "size": 1
- },
- {
-  "name": "아키텍처",
-  "size": 2
- },
- {
-  "name": "암호학",
-  "size": 1
- },
- {
-  "name": "의존성주입",
-  "size": 2
- },
- {
-  "name": "인프라",
-  "size": 1
- },
- {
-  "name": "컴퓨터기초",
-  "size": 2
- },
- {
-  "name": "프로그래밍",
-  "size": 4
- },
- {
-  "name": "흐름제어",
-  "size": 1
- },
- {
   "name": "aes",
   "size": 1
  },
@@ -128,6 +60,10 @@
   "size": 1
  },
  {
+  "name": "composition",
+  "size": 1
+ },
+ {
   "name": "config",
   "size": 1
  },
@@ -157,6 +93,10 @@
  },
  {
   "name": "ddd",
+  "size": 1
+ },
+ {
+  "name": "delegation",
   "size": 1
  },
  {
@@ -220,6 +160,10 @@
   "size": 3
  },
  {
+  "name": "inheritance",
+  "size": 1
+ },
+ {
   "name": "intellij",
   "size": 1
  },
@@ -245,7 +189,7 @@
  },
  {
   "name": "kotlin",
-  "size": 2
+  "size": 3
  },
  {
   "name": "kubernetes",
@@ -289,6 +233,10 @@
  },
  {
   "name": "nonce",
+  "size": 1
+ },
+ {
+  "name": "oop",
   "size": 1
  },
  {
@@ -370,5 +318,73 @@
  {
   "name": "webflux",
   "size": 2
+ },
+ {
+  "name": "개발기초",
+  "size": 2
+ },
+ {
+  "name": "기술",
+  "size": 1
+ },
+ {
+  "name": "동시성",
+  "size": 1
+ },
+ {
+  "name": "동시성모델",
+  "size": 1
+ },
+ {
+  "name": "동시성제어",
+  "size": 1
+ },
+ {
+  "name": "디자인패턴",
+  "size": 3
+ },
+ {
+  "name": "문서화",
+  "size": 1
+ },
+ {
+  "name": "비동기프로그래밍",
+  "size": 1
+ },
+ {
+  "name": "설계",
+  "size": 2
+ },
+ {
+  "name": "스프링",
+  "size": 1
+ },
+ {
+  "name": "아키텍처",
+  "size": 2
+ },
+ {
+  "name": "암호학",
+  "size": 1
+ },
+ {
+  "name": "의존성주입",
+  "size": 2
+ },
+ {
+  "name": "인프라",
+  "size": 1
+ },
+ {
+  "name": "컴퓨터기초",
+  "size": 2
+ },
+ {
+  "name": "프로그래밍",
+  "size": 4
+ },
+ {
+  "name": "흐름제어",
+  "size": 1
  }
 ]
