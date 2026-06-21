@@ -1,0 +1,8 @@
+{
+ "type": "blog",
+ "title": "Kotlin 코루틴을 서브루틴부터 Job까지 한 번에 이해하기",
+ "summary": "코루틴을 처음 이해할 때 헷갈리는 서브루틴, 스레드, 가상 스레드, 고루틴, suspend, Job, async/await, coroutineScope, withContext를 카페 예제로 한 흐름으로 정리합니다.",
+ "url": "/blog/2026/06/21/kotlin-coroutine-from-subroutine-to-job",
+ "updated": "2026-06-21 16:10:00 +0900",
+ "children": []
+}
