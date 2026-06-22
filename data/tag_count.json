@@ -124,6 +124,10 @@
   "size": 1
  },
  {
+  "name": "equals",
+  "size": 1
+ },
+ {
   "name": "flux",
   "size": 1
  },
@@ -145,6 +149,10 @@
  },
  {
   "name": "h2",
+  "size": 1
+ },
+ {
+  "name": "hashcode",
   "size": 1
  },
  {
@@ -192,6 +200,10 @@
   "size": 5
  },
  {
+  "name": "jvm",
+  "size": 1
+ },
+ {
   "name": "k8s",
   "size": 11
  },
@@ -201,7 +213,7 @@
  },
  {
   "name": "kotlin",
-  "size": 5
+  "size": 6
  },
  {
   "name": "kubernetes",
@@ -213,6 +225,10 @@
  },
  {
   "name": "main",
+  "size": 1
+ },
+ {
+  "name": "map",
   "size": 1
  },
  {

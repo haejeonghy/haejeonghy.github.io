@@ -3,5 +3,6 @@
  "/blog/2026/06/07/spring-boot-hibernate-naming-strategy",
  "/blog/2026/06/21/kotlin-class-delegation-by",
  "/blog/2026/06/21/kotlin-coroutine-from-subroutine-to-job",
- "/blog/2026/06/21/kotlin-delegated-property"
+ "/blog/2026/06/21/kotlin-delegated-property",
+ "/blog/2026/06/22/kotlin-map-key-equals-hashcode-reference-equality"
 ]
